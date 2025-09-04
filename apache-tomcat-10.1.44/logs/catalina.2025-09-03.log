@@ -1,0 +1,1020 @@
+03-Sep-2025 17:42:38.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.44
+03-Sep-2025 17:42:38.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 4 2025 13:14:17 UTC
+03-Sep-2025 17:42:38.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.44.0
+03-Sep-2025 17:42:38.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+03-Sep-2025 17:42:38.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+03-Sep-2025 17:42:38.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+03-Sep-2025 17:42:38.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+03-Sep-2025 17:42:38.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+03-Sep-2025 17:42:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+03-Sep-2025 17:42:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 17:42:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 17:42:38.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\conf\logging.properties
+03-Sep-2025 17:42:38.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2025 17:42:38.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2025 17:42:38.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2025 17:42:38.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+03-Sep-2025 17:42:38.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2025 17:42:38.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+03-Sep-2025 17:42:38.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2025 17:42:38.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+03-Sep-2025 17:42:38.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Sep-2025 17:42:38.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2025 17:42:38.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 17:42:38.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 17:42:38.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\temp
+03-Sep-2025 17:42:38.731 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.9] con la versión APR [1.7.6].
+03-Sep-2025 17:42:38.840 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.5.0 8 Apr 2025]
+03-Sep-2025 17:42:40.182 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+03-Sep-2025 17:42:40.256 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2451] milliseconds
+03-Sep-2025 17:42:40.406 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+03-Sep-2025 17:42:40.407 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+03-Sep-2025 17:42:40.483 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] de la aplicación web
+03-Sep-2025 17:43:08.698 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+03-Sep-2025 17:43:18.291 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Sep-2025 17:43:18.347 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/parabank] debido a errores previos
+03-Sep-2025 17:43:18.397 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [parabank] appears to have started a thread named [Log4j2-TF-2-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+03-Sep-2025 17:43:18.452 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] has finished in [37.959] ms
+03-Sep-2025 17:43:18.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] de la aplicación web
+03-Sep-2025 17:43:18.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] has finished in [184] ms
+03-Sep-2025 17:43:18.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] de la aplicación web
+03-Sep-2025 17:43:19.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] has finished in [1.281] ms
+03-Sep-2025 17:43:19.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] de la aplicación web
+03-Sep-2025 17:43:20.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] has finished in [180] ms
+03-Sep-2025 17:43:20.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] de la aplicación web
+03-Sep-2025 17:43:20.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] has finished in [79] ms
+03-Sep-2025 17:43:20.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] de la aplicación web
+03-Sep-2025 17:43:20.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] has finished in [82] ms
+03-Sep-2025 17:43:20.294 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 17:43:20.429 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+03-Sep-2025 17:43:20.449 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to start component [Connector["http-nio-8080"]]
+	java.lang.NoClassDefFoundError: org/bouncycastle/jce/provider/BouncyCastleProvider$2
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.lang.ClassNotFoundException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1390)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		... 30 more
+	Caused by: java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		... 32 more
+03-Sep-2025 17:43:20.472 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [40212] milliseconds
+03-Sep-2025 17:44:20.416 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 17:44:20.418 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+03-Sep-2025 17:44:20.455 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 17:44:20.457 SEVERE [Thread-3] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to stop component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Ocurrió un fallo al detener el manejador del protocolo
+		at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1126)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:270)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:837)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:974)
+	Caused by: java.lang.NullPointerException: Cannot invoke "org.apache.tomcat.util.net.Acceptor.stopMillis(int)" because "this.acceptor" is null
+		at org.apache.tomcat.util.net.NioEndpoint.stopInternal(NioEndpoint.java:328)
+		at org.apache.tomcat.util.net.AbstractEndpoint.stop(AbstractEndpoint.java:1522)
+		at org.apache.coyote.AbstractProtocol.stop(AbstractProtocol.java:721)
+		at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1123)
+		... 8 more
+03-Sep-2025 17:44:20.490 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 17:44:28.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.44
+03-Sep-2025 17:44:28.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 4 2025 13:14:17 UTC
+03-Sep-2025 17:44:28.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.44.0
+03-Sep-2025 17:44:28.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+03-Sep-2025 17:44:28.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+03-Sep-2025 17:44:28.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+03-Sep-2025 17:44:28.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+03-Sep-2025 17:44:28.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+03-Sep-2025 17:44:28.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+03-Sep-2025 17:44:28.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 17:44:28.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 17:44:28.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\conf\logging.properties
+03-Sep-2025 17:44:28.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2025 17:44:28.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2025 17:44:28.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2025 17:44:28.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+03-Sep-2025 17:44:28.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2025 17:44:28.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+03-Sep-2025 17:44:28.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2025 17:44:28.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+03-Sep-2025 17:44:28.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Sep-2025 17:44:28.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2025 17:44:28.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 17:44:28.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 17:44:28.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\temp
+03-Sep-2025 17:44:28.079 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.9] con la versión APR [1.7.6].
+03-Sep-2025 17:44:28.090 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.5.0 8 Apr 2025]
+03-Sep-2025 17:44:28.753 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+03-Sep-2025 17:44:28.815 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1171] milliseconds
+03-Sep-2025 17:44:28.932 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+03-Sep-2025 17:44:28.933 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+03-Sep-2025 17:44:28.961 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] de la aplicación web
+03-Sep-2025 17:44:39.447 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+03-Sep-2025 17:44:46.683 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Sep-2025 17:44:46.702 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/parabank] debido a errores previos
+03-Sep-2025 17:44:46.755 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [parabank] appears to have started a thread named [Log4j2-TF-2-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+03-Sep-2025 17:44:46.778 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] has finished in [17.817] ms
+03-Sep-2025 17:44:46.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] de la aplicación web
+03-Sep-2025 17:44:46.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] has finished in [150] ms
+03-Sep-2025 17:44:46.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] de la aplicación web
+03-Sep-2025 17:44:47.870 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] has finished in [936] ms
+03-Sep-2025 17:44:47.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] de la aplicación web
+03-Sep-2025 17:44:47.951 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] has finished in [79] ms
+03-Sep-2025 17:44:47.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] de la aplicación web
+03-Sep-2025 17:44:48.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] has finished in [73] ms
+03-Sep-2025 17:44:48.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] de la aplicación web
+03-Sep-2025 17:44:48.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] has finished in [55] ms
+03-Sep-2025 17:44:48.091 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 17:44:48.109 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+03-Sep-2025 17:44:48.125 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to start component [Connector["http-nio-8080"]]
+	java.lang.NoClassDefFoundError: org/bouncycastle/jce/provider/BouncyCastleProvider$2
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.lang.ClassNotFoundException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1390)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		... 30 more
+	Caused by: java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		... 32 more
+03-Sep-2025 17:44:48.147 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [19326] milliseconds
+03-Sep-2025 18:01:19.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.44
+03-Sep-2025 18:01:19.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 4 2025 13:14:17 UTC
+03-Sep-2025 18:01:19.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.44.0
+03-Sep-2025 18:01:19.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+03-Sep-2025 18:01:19.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+03-Sep-2025 18:01:19.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+03-Sep-2025 18:01:19.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+03-Sep-2025 18:01:19.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+03-Sep-2025 18:01:19.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+03-Sep-2025 18:01:19.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:01:19.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:01:19.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\conf\logging.properties
+03-Sep-2025 18:01:19.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2025 18:01:19.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2025 18:01:19.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2025 18:01:19.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+03-Sep-2025 18:01:19.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2025 18:01:19.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+03-Sep-2025 18:01:19.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2025 18:01:19.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+03-Sep-2025 18:01:19.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Sep-2025 18:01:19.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2025 18:01:19.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:01:19.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:01:19.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\temp
+03-Sep-2025 18:01:19.480 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.9] con la versión APR [1.7.6].
+03-Sep-2025 18:01:19.491 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.5.0 8 Apr 2025]
+03-Sep-2025 18:01:20.499 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+03-Sep-2025 18:01:20.637 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1566] milliseconds
+03-Sep-2025 18:01:20.706 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+03-Sep-2025 18:01:20.707 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+03-Sep-2025 18:01:20.740 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] de la aplicación web
+03-Sep-2025 18:01:30.782 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+03-Sep-2025 18:05:09.687 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Sep-2025 18:05:09.708 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/parabank] debido a errores previos
+03-Sep-2025 18:05:09.759 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [parabank] appears to have started a thread named [Log4j2-TF-2-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+03-Sep-2025 18:05:09.783 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] has finished in [229.042] ms
+03-Sep-2025 18:05:09.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] de la aplicación web
+03-Sep-2025 18:05:09.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] has finished in [118] ms
+03-Sep-2025 18:05:09.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] de la aplicación web
+03-Sep-2025 18:05:10.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] has finished in [713] ms
+03-Sep-2025 18:05:10.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] de la aplicación web
+03-Sep-2025 18:05:10.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] has finished in [75] ms
+03-Sep-2025 18:05:10.700 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] de la aplicación web
+03-Sep-2025 18:05:10.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] has finished in [64] ms
+03-Sep-2025 18:05:10.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] de la aplicación web
+03-Sep-2025 18:05:10.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] has finished in [54] ms
+03-Sep-2025 18:05:10.832 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 18:05:10.848 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+03-Sep-2025 18:05:10.865 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to start component [Connector["http-nio-8080"]]
+	java.lang.NoClassDefFoundError: org/bouncycastle/jce/provider/BouncyCastleProvider$2
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.lang.ClassNotFoundException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1390)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		... 30 more
+	Caused by: java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		... 32 more
+03-Sep-2025 18:05:10.892 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [230251] milliseconds
+03-Sep-2025 18:07:02.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.44
+03-Sep-2025 18:07:02.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 4 2025 13:14:17 UTC
+03-Sep-2025 18:07:02.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.44.0
+03-Sep-2025 18:07:02.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+03-Sep-2025 18:07:02.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+03-Sep-2025 18:07:02.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+03-Sep-2025 18:07:02.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+03-Sep-2025 18:07:02.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+03-Sep-2025 18:07:02.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+03-Sep-2025 18:07:02.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:07:02.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:07:02.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\conf\logging.properties
+03-Sep-2025 18:07:02.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2025 18:07:02.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2025 18:07:02.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2025 18:07:02.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+03-Sep-2025 18:07:02.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2025 18:07:02.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+03-Sep-2025 18:07:02.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2025 18:07:02.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+03-Sep-2025 18:07:02.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Sep-2025 18:07:02.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2025 18:07:02.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:07:02.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:07:02.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\temp
+03-Sep-2025 18:07:02.524 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.9] con la versión APR [1.7.6].
+03-Sep-2025 18:07:02.535 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.5.0 8 Apr 2025]
+03-Sep-2025 18:07:03.146 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+03-Sep-2025 18:07:03.203 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1064] milliseconds
+03-Sep-2025 18:07:03.273 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+03-Sep-2025 18:07:03.276 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+03-Sep-2025 18:07:03.312 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] de la aplicación web
+03-Sep-2025 18:07:13.315 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+03-Sep-2025 18:07:20.400 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Sep-2025 18:07:20.422 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/parabank] debido a errores previos
+03-Sep-2025 18:07:20.475 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [parabank] appears to have started a thread named [Log4j2-TF-2-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+03-Sep-2025 18:07:20.494 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] has finished in [17.180] ms
+03-Sep-2025 18:07:20.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] de la aplicación web
+03-Sep-2025 18:07:20.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] has finished in [114] ms
+03-Sep-2025 18:07:20.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] de la aplicación web
+03-Sep-2025 18:07:21.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] has finished in [786] ms
+03-Sep-2025 18:07:21.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] de la aplicación web
+03-Sep-2025 18:07:21.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] has finished in [70] ms
+03-Sep-2025 18:07:21.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] de la aplicación web
+03-Sep-2025 18:07:21.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] has finished in [62] ms
+03-Sep-2025 18:07:21.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] de la aplicación web
+03-Sep-2025 18:07:21.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] has finished in [56] ms
+03-Sep-2025 18:07:21.603 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 18:07:21.617 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+03-Sep-2025 18:07:21.634 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to start component [Connector["http-nio-8080"]]
+	java.lang.NoClassDefFoundError: org/bouncycastle/jce/provider/BouncyCastleProvider$2
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.lang.ClassNotFoundException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1390)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		... 30 more
+	Caused by: java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		... 32 more
+03-Sep-2025 18:07:21.655 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18448] milliseconds
+03-Sep-2025 18:10:10.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.44
+03-Sep-2025 18:10:10.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 4 2025 13:14:17 UTC
+03-Sep-2025 18:10:10.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.44.0
+03-Sep-2025 18:10:10.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+03-Sep-2025 18:10:10.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+03-Sep-2025 18:10:10.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+03-Sep-2025 18:10:10.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+03-Sep-2025 18:10:10.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+03-Sep-2025 18:10:10.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+03-Sep-2025 18:10:10.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:10:10.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:10:10.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\conf\logging.properties
+03-Sep-2025 18:10:10.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2025 18:10:10.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2025 18:10:10.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2025 18:10:10.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+03-Sep-2025 18:10:10.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2025 18:10:10.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+03-Sep-2025 18:10:10.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2025 18:10:10.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+03-Sep-2025 18:10:10.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Sep-2025 18:10:10.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2025 18:10:10.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:10:10.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:10:10.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\temp
+03-Sep-2025 18:10:10.100 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.9] con la versión APR [1.7.6].
+03-Sep-2025 18:10:10.111 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.5.0 8 Apr 2025]
+03-Sep-2025 18:10:10.729 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+03-Sep-2025 18:10:10.776 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1079] milliseconds
+03-Sep-2025 18:10:10.884 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+03-Sep-2025 18:10:10.885 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+03-Sep-2025 18:10:10.922 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] de la aplicación web
+03-Sep-2025 18:10:21.381 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+03-Sep-2025 18:10:28.304 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Sep-2025 18:10:28.323 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/parabank] debido a errores previos
+03-Sep-2025 18:10:28.374 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [parabank] appears to have started a thread named [Log4j2-TF-2-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+03-Sep-2025 18:10:28.395 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] has finished in [17.472] ms
+03-Sep-2025 18:10:28.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] de la aplicación web
+03-Sep-2025 18:10:28.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] has finished in [76] ms
+03-Sep-2025 18:10:28.482 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] de la aplicación web
+03-Sep-2025 18:10:29.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] has finished in [695] ms
+03-Sep-2025 18:10:29.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] de la aplicación web
+03-Sep-2025 18:10:29.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] has finished in [72] ms
+03-Sep-2025 18:10:29.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] de la aplicación web
+03-Sep-2025 18:10:29.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] has finished in [60] ms
+03-Sep-2025 18:10:29.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] de la aplicación web
+03-Sep-2025 18:10:29.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] has finished in [44] ms
+03-Sep-2025 18:10:29.383 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 18:10:29.395 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+03-Sep-2025 18:10:29.412 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to start component [Connector["http-nio-8080"]]
+	java.lang.NoClassDefFoundError: org/bouncycastle/jce/provider/BouncyCastleProvider$2
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.lang.ClassNotFoundException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1390)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		... 30 more
+	Caused by: java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		... 32 more
+03-Sep-2025 18:10:29.433 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18653] milliseconds
+03-Sep-2025 18:10:56.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.44
+03-Sep-2025 18:10:56.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 4 2025 13:14:17 UTC
+03-Sep-2025 18:10:56.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.44.0
+03-Sep-2025 18:10:56.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+03-Sep-2025 18:10:56.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+03-Sep-2025 18:10:56.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+03-Sep-2025 18:10:56.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+03-Sep-2025 18:10:56.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+03-Sep-2025 18:10:56.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+03-Sep-2025 18:10:56.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:10:56.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:10:56.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\conf\logging.properties
+03-Sep-2025 18:10:56.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2025 18:10:56.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2025 18:10:56.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2025 18:10:56.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+03-Sep-2025 18:10:56.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2025 18:10:56.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+03-Sep-2025 18:10:56.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2025 18:10:56.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+03-Sep-2025 18:10:56.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Sep-2025 18:10:56.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2025 18:10:56.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:10:56.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:10:56.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\temp
+03-Sep-2025 18:10:56.703 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.9] con la versión APR [1.7.6].
+03-Sep-2025 18:10:56.714 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.5.0 8 Apr 2025]
+03-Sep-2025 18:10:57.334 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+03-Sep-2025 18:10:57.383 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1077] milliseconds
+03-Sep-2025 18:10:57.468 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+03-Sep-2025 18:10:57.469 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+03-Sep-2025 18:10:57.500 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] de la aplicación web
+03-Sep-2025 18:11:07.655 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+03-Sep-2025 18:11:14.555 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Sep-2025 18:11:14.573 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/parabank] debido a errores previos
+03-Sep-2025 18:11:14.626 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [parabank] appears to have started a thread named [Log4j2-TF-2-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+03-Sep-2025 18:11:14.646 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] has finished in [17.146] ms
+03-Sep-2025 18:11:14.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] de la aplicación web
+03-Sep-2025 18:11:14.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] has finished in [112] ms
+03-Sep-2025 18:11:14.765 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] de la aplicación web
+03-Sep-2025 18:11:15.465 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] has finished in [699] ms
+03-Sep-2025 18:11:15.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] de la aplicación web
+03-Sep-2025 18:11:15.540 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] has finished in [67] ms
+03-Sep-2025 18:11:15.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] de la aplicación web
+03-Sep-2025 18:11:15.606 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] has finished in [64] ms
+03-Sep-2025 18:11:15.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] de la aplicación web
+03-Sep-2025 18:11:15.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] has finished in [43] ms
+03-Sep-2025 18:11:15.660 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 18:11:15.675 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+03-Sep-2025 18:11:15.691 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to start component [Connector["http-nio-8080"]]
+	java.lang.NoClassDefFoundError: org/bouncycastle/jce/provider/BouncyCastleProvider$2
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.lang.ClassNotFoundException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1390)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		... 30 more
+	Caused by: java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		... 32 more
+03-Sep-2025 18:11:15.712 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18319] milliseconds
+03-Sep-2025 18:13:55.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.44
+03-Sep-2025 18:13:55.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 4 2025 13:14:17 UTC
+03-Sep-2025 18:13:55.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.44.0
+03-Sep-2025 18:13:55.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+03-Sep-2025 18:13:55.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+03-Sep-2025 18:13:55.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+03-Sep-2025 18:13:55.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+03-Sep-2025 18:13:55.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+03-Sep-2025 18:13:55.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+03-Sep-2025 18:13:55.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:13:55.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:13:55.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\conf\logging.properties
+03-Sep-2025 18:13:55.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2025 18:13:55.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2025 18:13:55.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2025 18:13:55.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+03-Sep-2025 18:13:55.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2025 18:13:55.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+03-Sep-2025 18:13:55.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2025 18:13:55.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+03-Sep-2025 18:13:55.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Sep-2025 18:13:55.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2025 18:13:55.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:13:55.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:13:55.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\temp
+03-Sep-2025 18:13:55.273 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.9] con la versión APR [1.7.6].
+03-Sep-2025 18:13:55.285 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.5.0 8 Apr 2025]
+03-Sep-2025 18:13:55.910 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+03-Sep-2025 18:13:55.967 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1090] milliseconds
+03-Sep-2025 18:13:56.039 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+03-Sep-2025 18:13:56.042 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+03-Sep-2025 18:13:56.073 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] de la aplicación web
+03-Sep-2025 18:14:06.204 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+03-Sep-2025 18:14:13.613 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+03-Sep-2025 18:14:13.633 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/parabank] debido a errores previos
+03-Sep-2025 18:14:13.685 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [parabank] appears to have started a thread named [Log4j2-TF-2-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+03-Sep-2025 18:14:13.707 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] has finished in [17.633] ms
+03-Sep-2025 18:14:13.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] de la aplicación web
+03-Sep-2025 18:14:13.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] has finished in [130] ms
+03-Sep-2025 18:14:13.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] de la aplicación web
+03-Sep-2025 18:14:14.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] has finished in [1.112] ms
+03-Sep-2025 18:14:14.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] de la aplicación web
+03-Sep-2025 18:14:15.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] has finished in [80] ms
+03-Sep-2025 18:14:15.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] de la aplicación web
+03-Sep-2025 18:14:15.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] has finished in [83] ms
+03-Sep-2025 18:14:15.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] de la aplicación web
+03-Sep-2025 18:14:15.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] has finished in [47] ms
+03-Sep-2025 18:14:15.199 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 18:14:15.217 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+03-Sep-2025 18:14:15.233 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to start component [Connector["http-nio-8080"]]
+	java.lang.NoClassDefFoundError: org/bouncycastle/jce/provider/BouncyCastleProvider$2
+		at org.bouncycastle.jce.provider.BouncyCastleProvider.getService(Unknown Source)
+		at java.base/sun.security.jca.ProviderList.getService(ProviderList.java:387)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:145)
+		at java.base/java.security.SecureRandom.getInstance(SecureRandom.java:384)
+		at java.base/sun.nio.ch.UnixDomainSockets.getRandom(UnixDomainSockets.java:120)
+		at java.base/sun.nio.ch.UnixDomainSockets.<clinit>(UnixDomainSockets.java:126)
+		at java.base/sun.nio.ch.PipeImpl.createListener(PipeImpl.java:219)
+		at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:85)
+		at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:67)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:197)
+		at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:79)
+		at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+		at java.base/java.nio.channels.Selector.open(Selector.java:295)
+		at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:628)
+		at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1103)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:761)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.lang.ClassNotFoundException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1390)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1222)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+		... 30 more
+	Caused by: java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [org.bouncycastle.jce.provider.BouncyCastleProvider$2].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1400)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1388)
+		... 32 more
+03-Sep-2025 18:14:15.255 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [19281] milliseconds
+03-Sep-2025 18:35:21.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.44
+03-Sep-2025 18:35:21.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 4 2025 13:14:17 UTC
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.44.0
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\conf\logging.properties
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44
+03-Sep-2025 18:35:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\temp
+03-Sep-2025 18:35:21.219 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.9] con la versión APR [1.7.6].
+03-Sep-2025 18:35:21.226 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.5.0 8 Apr 2025]
+03-Sep-2025 18:35:21.674 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+03-Sep-2025 18:35:21.705 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [895] milliseconds
+03-Sep-2025 18:35:21.774 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+03-Sep-2025 18:35:21.774 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+03-Sep-2025 18:35:21.805 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] de la aplicación web
+03-Sep-2025 18:36:00.928 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+03-Sep-2025 18:36:36.004 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\parabank.war] has finished in [74.081] ms
+03-Sep-2025 18:36:36.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] de la aplicación web
+03-Sep-2025 18:36:36.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\docs] has finished in [434] ms
+03-Sep-2025 18:36:36.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] de la aplicación web
+03-Sep-2025 18:36:41.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\examples] has finished in [4.913] ms
+03-Sep-2025 18:36:41.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] de la aplicación web
+03-Sep-2025 18:36:41.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\host-manager] has finished in [116] ms
+03-Sep-2025 18:36:41.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] de la aplicación web
+03-Sep-2025 18:36:41.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\manager] has finished in [110] ms
+03-Sep-2025 18:36:41.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] de la aplicación web
+03-Sep-2025 18:36:41.703 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Desktop\testing\selenium\java\java-pom\apache-tomcat-10.1.44\webapps\ROOT] has finished in [122] ms
+03-Sep-2025 18:36:41.709 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Sep-2025 18:36:42.136 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [80419] milliseconds

@@ -1,0 +1,10 @@
+04-Sep-2025 15:53:26.228 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Sep-2025 15:53:26.265 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Sep-2025 15:53:50.837 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'parabank'
+04-Sep-2025 15:53:54.601 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+04-Sep-2025 15:53:54.601 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+04-Sep-2025 15:53:54.604 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@722b438')
+04-Sep-2025 16:07:32.203 INFO [Thread-5] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+04-Sep-2025 16:07:32.203 INFO [Thread-5] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+04-Sep-2025 16:07:32.223 INFO [Thread-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'parabank'
+04-Sep-2025 16:07:32.252 INFO [Thread-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

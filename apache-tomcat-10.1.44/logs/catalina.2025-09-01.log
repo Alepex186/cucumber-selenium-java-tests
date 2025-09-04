@@ -1,0 +1,47 @@
+01-Sep-2025 23:05:56.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.44
+01-Sep-2025 23:05:56.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Aug 4 2025 13:14:17 UTC
+01-Sep-2025 23:05:56.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.44.0
+01-Sep-2025 23:05:56.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+01-Sep-2025 23:05:56.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+01-Sep-2025 23:05:56.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+01-Sep-2025 23:05:56.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+01-Sep-2025 23:05:56.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+01-Sep-2025 23:05:56.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+01-Sep-2025 23:05:56.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44
+01-Sep-2025 23:05:56.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44
+01-Sep-2025 23:05:56.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\conf\logging.properties
+01-Sep-2025 23:05:56.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Sep-2025 23:05:56.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+01-Sep-2025 23:05:56.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Sep-2025 23:05:56.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+01-Sep-2025 23:05:56.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Sep-2025 23:05:56.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+01-Sep-2025 23:05:56.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+01-Sep-2025 23:05:56.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+01-Sep-2025 23:05:56.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Sep-2025 23:05:56.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Sep-2025 23:05:56.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44
+01-Sep-2025 23:05:56.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44
+01-Sep-2025 23:05:56.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\temp
+01-Sep-2025 23:05:56.606 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.9] con la versión APR [1.7.6].
+01-Sep-2025 23:05:56.620 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.5.0 8 Apr 2025]
+01-Sep-2025 23:05:57.409 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+01-Sep-2025 23:05:57.460 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1296] milliseconds
+01-Sep-2025 23:05:57.561 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+01-Sep-2025 23:05:57.561 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+01-Sep-2025 23:05:57.592 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\parabank.war] de la aplicación web
+01-Sep-2025 23:06:09.987 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Sep-2025 23:06:24.740 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\parabank.war] has finished in [27.146] ms
+01-Sep-2025 23:06:24.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\docs] de la aplicación web
+01-Sep-2025 23:06:24.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\docs] has finished in [87] ms
+01-Sep-2025 23:06:24.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\examples] de la aplicación web
+01-Sep-2025 23:06:25.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\examples] has finished in [788] ms
+01-Sep-2025 23:06:25.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\host-manager] de la aplicación web
+01-Sep-2025 23:06:25.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\host-manager] has finished in [108] ms
+01-Sep-2025 23:06:25.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\manager] de la aplicación web
+01-Sep-2025 23:06:25.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\manager] has finished in [94] ms
+01-Sep-2025 23:06:25.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\ROOT] de la aplicación web
+01-Sep-2025 23:06:25.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Desktop-NG250\Downloads\parabank-master\apache-tomcat-10.1.44-windows-x64\apache-tomcat-10.1.44\webapps\ROOT] has finished in [51] ms
+01-Sep-2025 23:06:25.903 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Sep-2025 23:06:26.090 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [28616] milliseconds
