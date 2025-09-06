@@ -3,6 +3,7 @@ package myproject.pages;
 import io.cucumber.java.en.And;
 import myproject.abs.abs_basics_funtions;
 import myproject.objs.RegisterData;
+import myproject.steps.TestContext;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -54,10 +55,11 @@ public class RegisterPage extends abs_basics_funtions {
 
     WebDriver driver;
 
-    public RegisterPage(WebDriver driver){
+    public RegisterPage(TestContext testContext){
         super("register_page");
-        this.driver=driver;
+        this.driver=testContext.getDriver();
         this.registerData= new RegisterData();
+
         PageFactory.initElements(new AjaxElementLocatorFactory(driver,20),this);
     }
 

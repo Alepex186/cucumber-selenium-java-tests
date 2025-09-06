@@ -18,35 +18,24 @@ import java.util.List;
 import java.util.Objects;
 
 public class AccountsOverviewStep {
+    TestContext testContext=Hooks.getThreadLocalContext().get();
 
-    AccountsOverviewPage accountsOverviewPage;
-    AccountServicesPage accountServicesPage;
-    OpenNewAccountPage openNewAccountPage;
-    String FromtransferredAccountId;
-    String NewAccountId;
-    WebDriver driver;
+    private final AccountsOverviewPage accountsOverviewPage=testContext.getAccountsOverviewPage();
+    private final AccountServicesPage accountServicesPage=testContext.getAccountServicesPage();
+    private final OpenNewAccountPage openNewAccountPage=testContext.getOpenNewAccountPage();
+    private String FromtransferredAccountId;
+    private String NewAccountId;
 
     public AccountsOverviewStep(){
-        this.driver=Hooks.getDriver();
-        this.accountsOverviewPage=new AccountsOverviewPage(this.driver);
-        this.accountServicesPage=new AccountServicesPage(this.driver);
-        this.openNewAccountPage=new OpenNewAccountPage(this.driver);
     }
 
     @Given("El usuario esta en el apartado de Accounts Overview y visualiza la lista actual de cuentas")
     public void accountOverview(){
         accountServicesPage.ClickAccountsOverview();
-//        WebElement table= accountsOverviewPage.getTableData();
-//        accountsOverviewPage.setElementos1(Jsoup.parse(Objects.requireNonNull(table.getAttribute("outerHTML"))));
-        WebElement tbody = accountsOverviewPage.getTableData();
-        String tbodyHtml = Objects.requireNonNull(tbody.getAttribute("outerHTML"));
 
-        Document doc = Jsoup.parse("<table>" + tbodyHtml + "</table>");
 
-        // Seleccionamos el tbody real
-        Element tbodyy = doc.selectFirst("tbody");
-        //System.out.println(tbodyy);
-        accountsOverviewPage.setElementos1(tbodyy);
+        Element tbody = accountsOverviewPage.getTableData();
+        accountsOverviewPage.setElementos1(tbody);
 
     }
 
@@ -62,19 +51,13 @@ public class AccountsOverviewStep {
 
     @And("El usuario regresa a la pagina de Accounts Overview")
     public void accountOverviewReturn(){
+
+
+
         this.accountServicesPage.ClickAccountsOverview();
-//        WebElement table= accountsOverviewPage.getTableData();
-//        accountsOverviewPage.setElementos2(Jsoup.parse(Objects.requireNonNull(table.getAttribute("outerHTML"))));
-        WebElement tbody = accountsOverviewPage.getTableData();
-        String tbodyHtml = Objects.requireNonNull(tbody.getAttribute("outerHTML"));
-        //System.out.println(tbodyHtml);
 
-        Document doc = Jsoup.parse("<table>" + tbodyHtml + "</table>");
-
-        // Seleccionamos el tbody real
-        Element tbodyy = doc.selectFirst("tbody");
-        //System.out.println(tbodyy);
-        accountsOverviewPage.setElementos2(tbodyy);
+        Element tbody = accountsOverviewPage.getTableData();
+        accountsOverviewPage.setElementos2(tbody);
 
     }
 

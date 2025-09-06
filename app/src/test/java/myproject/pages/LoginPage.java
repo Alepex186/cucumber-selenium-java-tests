@@ -4,6 +4,7 @@ package myproject.pages;
 import myproject.abs.abs_basics_funtions;
 
 import myproject.objs.RegisterData;
+import myproject.steps.TestContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -40,9 +41,9 @@ public class LoginPage extends abs_basics_funtions {
 
     WebDriver driver;
 
-    public LoginPage(WebDriver driver) {
+    public LoginPage(TestContext testContext) {
         super("login_page");
-        this.driver=driver;
+        this.driver=testContext.getDriver();
         PageFactory.initElements(new AjaxElementLocatorFactory(driver,20),this);
     }
 

@@ -12,13 +12,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class RegisterStep {
-    RegisterPage registerPage;
-    WebDriver driver;
+
+    TestContext testContext=Hooks.getThreadLocalContext().get();
+
+
+
+    RegisterPage registerPage=testContext.getRegisterPage();
 
 
     public RegisterStep() {
-        this.driver=Hooks.getDriver();
-        this.registerPage=new RegisterPage(this.driver);
     }
 
 

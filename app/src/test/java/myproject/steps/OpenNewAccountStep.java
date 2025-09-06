@@ -8,16 +8,15 @@ import myproject.pages.AccountServices_Elements.OpenNewAccountPage;
 import org.openqa.selenium.WebDriver;
 
 public class OpenNewAccountStep {
-    WebDriver driver;
-    OpenNewAccountPage openNewAccountPage;
-    AccountServicesPage accountServicesPage;
+
+    TestContext testContext=Hooks.getThreadLocalContext().get();
+
+
+    OpenNewAccountPage openNewAccountPage=testContext.getOpenNewAccountPage();
+    AccountServicesPage accountServicesPage=testContext.getAccountServicesPage();
 
 
     public OpenNewAccountStep(){
-        this.driver=Hooks.getDriver();
-        this.accountServicesPage=new AccountServicesPage(this.driver);
-        this.openNewAccountPage=new OpenNewAccountPage(this.driver);
-
 
     }
 

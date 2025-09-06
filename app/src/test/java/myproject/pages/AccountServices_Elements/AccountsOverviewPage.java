@@ -1,5 +1,6 @@
 package myproject.pages.AccountServices_Elements;
 
+import myproject.steps.TestContext;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -15,8 +16,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.lang.reflect.Array;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.Duration;
 import java.util.List;
+import java.util.Objects;
 
 import org.jsoup.Jsoup;
 
@@ -32,18 +36,30 @@ public class AccountsOverviewPage extends abs_basics_funtions{
     Element elementos2;
 
 
-    public AccountsOverviewPage(WebDriver driver){
+    public AccountsOverviewPage(TestContext testContext){
         super("AccountsOverviewPage");
-        this.driver=driver;
+        this.driver=testContext.getDriver();
         PageFactory.initElements(new AjaxElementLocatorFactory(driver,20),this);
     }
 
-    public WebElement getTableData(){ //List<WebElement>
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    public Element getTableData(){ //List<WebElement>
 
-        WebElement tbody=wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(accountTable,By.tagName("tbody")));
-        //WebElement tbody=accountTable.findElement(By.tagName("tbody"));
-        return tbody;
+
+
+        //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+        //WebElement tbody=wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(accountTable,By.tagName("tbody")));
+        WebElement tbody=accountTable.findElement(By.tagName("tbody"));
+
+
+        super.waitForElement(driver,tbody,10);
+
+        String tbodyHtml = Objects.requireNonNull(tbody.getAttribute("outerHTML"));
+        Document doc = Jsoup.parse("<table>" + tbodyHtml + "</table>");
+        Element tbodyy = doc.selectFirst("tbody");
+
+
+        return tbodyy;
     }
 
 
@@ -51,17 +67,13 @@ public class AccountsOverviewPage extends abs_basics_funtions{
         return Double.parseDouble(element.trim().replace("$",""));
     }
 
-    public int searchElementID(Element element,String elemento_to_find,boolean silence) throws Exception {
+    public int searchElementID(Element element,String elemento_to_find) throws Exception {
         Elements trdocument=element.select("tr");
-
 
         Elements TdElements;
         for(int i=0;i<trdocument.size()-1;i++){
             TdElements= trdocument.get(i).select("td");
             for(int j=0;j<TdElements.size();j++){
-                if(!silence){
-                    System.out.println(TdElements.get(j).text());
-                }
                 if(TdElements.get(j).text().equals(elemento_to_find)){
                     return i;
                 };
@@ -71,25 +83,6 @@ public class AccountsOverviewPage extends abs_basics_funtions{
         throw new Exception("ELEMENTO NO ENCONTRADO");
     }
 
-
-
-
-
-//        List<WebElement> TdElements;
-//        for(int i=0;i<element.size()-1;i++){
-//            TdElements= element.get(i).findElements(By.tagName("td"));
-//            for(int j=0;j<TdElements.size();j++){
-//                if(!silence){
-//                    System.out.println(TdElements.get(j).getText());
-//                }
-//                if(TdElements.get(j).getText().equals(elemento_to_find)){
-//                    return i;
-//                };
-//            }
-//        }
-//        System.out.println("elemento a encontrar:  " + elemento_to_find);
-//        throw new Exception("ELEMENTO NO ENCONTRADO");
-//    }
 
 
     public void verifyTables(String fromtransferredAccountId, String newAccountId) throws Exception {
@@ -109,29 +102,84 @@ public class AccountsOverviewPage extends abs_basics_funtions{
         System.out.println("fromtransferredAccountId : "+fromtransferredAccountId);
         System.out.println("newAccountId : "+newAccountId);
 
-        int newAccountElementIndex=searchElementID(elementos2,newAccountId,true);
+        int newAccountElementIndex=searchElementID(elementos2,newAccountId);
         System.out.println("newAccountElementIndex : " +newAccountElementIndex);
-        int newAccountElementFromtransferredAccount=searchElementID(elementos2,fromtransferredAccountId,false);
+        int newAccountElementFromtransferredAccount=searchElementID(elementos2,fromtransferredAccountId);
         System.out.println("newAccountElementFromtransferredAccount : "+newAccountElementFromtransferredAccount);
-        int LastAccountElementFromtransferredAccount=searchElementID(elementos1,fromtransferredAccountId,false);
+        int LastAccountElementFromtransferredAccount=searchElementID(elementos1,fromtransferredAccountId);
         System.out.println("LastAccountElementFromtransferredAccount : "+LastAccountElementFromtransferredAccount);
 
 
 
 
         double ActuallyMoneyNewAccount=cleanMoney(trdocument2.get(newAccountElementIndex).select("td").get(1).text());
-        //double ActuallyMoneyNewAccount=cleanMoney(elementos2.get(newAccountElementIndex).findElements(By.tagName("td")).get(1).getText());
 
         double ActuallyMoneyFromtransferredAccount=cleanMoney(trdocument2.get(newAccountElementFromtransferredAccount).select("td").get(1).text());
-        //double ActuallyMoneyFromtransferredAccount=cleanMoney(elementos2.get(newAccountElementFromtransferredAccount).findElements(By.tagName("td")).get(1).getText());
 
         double BeforeMoneyFromtransferredAccount=cleanMoney(trdocument1.get(LastAccountElementFromtransferredAccount).select("td").get(1).text());
-        //double BeforeMoneyFromtransferredAccount=cleanMoney(elementos1.get(LastAccountElementFromtransferredAccount).findElements(By.tagName("td")).get(1).getText());
 
 
         Assertions.assertTrue(ActuallyMoneyNewAccount+ActuallyMoneyFromtransferredAccount == BeforeMoneyFromtransferredAccount,"El dinero acreditado no es valido");
 
     }
+
+
+//    public void verifyTablesAmount(String fromtransferredAccountId, String toAccountId,double amountToVerify) throws Exception {
+    public void verifyTablesAmount(String typeaccount,String AccountId,double amountToVerify) throws Exception {
+        Elements trdocument1=elementos1.select("tr");
+        Elements trdocument2=elementos2.select("tr");
+
+
+
+
+        if(typeaccount.equals("origen")){
+            System.out.println(typeaccount);
+            System.out.println("fromtransferredAccountId : " + AccountId);
+            int beforeFromAccount=searchElementID(elementos1,AccountId);
+            int afterFromAccount=searchElementID(elementos2,AccountId);
+            double beforeFromAccountMoney=cleanMoney(trdocument1.get(beforeFromAccount).select("td").get(1).text());
+            double afterFromAccountMoney=cleanMoney(trdocument2.get(afterFromAccount).select("td").get(1).text());
+
+            System.out.println("beforeFromAccountMoney: "+beforeFromAccountMoney);
+            System.out.println("afterFromAccountMoney: "+afterFromAccountMoney);
+            System.out.println("amountToVerify" +amountToVerify);
+            System.out.println(beforeFromAccountMoney+amountToVerify);
+            Assertions.assertTrue(afterFromAccountMoney==beforeFromAccountMoney+amountToVerify,"El dinero de origen  no es valido");
+
+
+        }else {
+            System.out.println(typeaccount);
+
+            System.out.println("toAccount : " + AccountId);
+
+            int beforeToAccount=searchElementID(elementos1,AccountId);
+            int afterToAccount=searchElementID(elementos2,AccountId);
+
+            double beforeToAccountMoney=cleanMoney(trdocument1.get(beforeToAccount).select("td").get(1).text());
+            double afterToAccountMoney=cleanMoney(trdocument2.get(afterToAccount).select("td").get(1).text());
+
+
+            System.out.println("beforeToAccountMoney: "+beforeToAccountMoney);
+            System.out.println("afterToAccountMoney: "+afterToAccountMoney);
+            System.out.println("amountToVerify" +amountToVerify);
+
+            System.out.println(beforeToAccountMoney+"    "+afterToAccountMoney+"  "+amountToVerify);
+
+
+            Assertions.assertTrue(beforeToAccountMoney==afterToAccountMoney+amountToVerify);
+
+//            Assertions.assertEquals(beforeToAccountMoney, afterToAccountMoney + amountToVerify, 0.0001,
+//                    "El dinero de destino no es válido");
+        }
+
+
+    }
+
+
+
+
+
+
 
     public Element getElementos1() {
         return elementos1;

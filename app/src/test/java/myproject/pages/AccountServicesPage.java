@@ -1,5 +1,6 @@
 package myproject.pages;
 
+import myproject.steps.TestContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -36,9 +37,9 @@ public class AccountServicesPage extends abs_basics_funtions{
     WebDriver driver;
 
 
-    public AccountServicesPage(WebDriver driver){
+    public AccountServicesPage(TestContext testContext){
         super("AccountServicesPage");
-        this.driver=driver;
+        this.driver=testContext.getDriver();
         PageFactory.initElements(new AjaxElementLocatorFactory(driver,20),this);
     }
 

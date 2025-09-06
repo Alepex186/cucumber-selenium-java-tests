@@ -18,20 +18,15 @@ import java.net.http.HttpResponse;
 import java.util.Map;
 
 public class LoginStep {
-    LoginPage loginPage;
+    TestContext testContext=Hooks.getThreadLocalContext().get();
+    LoginPage loginPage=testContext.getLoginPage();
+
     String usuario;
     String password;
     WebDriver driver;
 
-    public LoginStep() throws Exception {
-        //Hooks.crearUsuario();
+    public LoginStep()  {
 
-        this.driver=Hooks.getDriver();
-        this.loginPage=new LoginPage(this.driver);
-//        ObjectMapper objectMapper=new ObjectMapper();
-//        Map<String,Object> json=objectMapper.readValue(new File("src/test/resources/LoginJson.json"),Map.class);
-//        this.usuario=(String) json.get("username");
-//        this.password=(String) json.get("password");
     }
 
     @Given("Abro la pagina de login")
@@ -78,7 +73,7 @@ public class LoginStep {
     @Given("El usuario ha iniciado sesión en el sistema con credenciales válidas")
     public void procesoCompletoLogin() throws Exception {
         loginPage.GetUrl();
-        loginPage.sendKeysUsername_element("test123");
+        loginPage.sendKeysUsername_element("test1234");
         loginPage.sendKeysPassword_element("123456");
         loginPage.clickLogin_button();
     }

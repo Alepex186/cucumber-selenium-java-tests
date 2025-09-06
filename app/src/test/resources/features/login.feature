@@ -6,7 +6,7 @@ Feature: Verificar login de la pagina web
 
 
   Scenario: Verificamos credenciales correctas
-    When Ingreso el usuario correcto "test123"
+    When Ingreso el usuario correcto "test1234"
       And Ingreso la contrasenia correcta "123456"
       And Hago click en el boton de login
     Then Deberia logearse y aparecer el texto "Accounts Overview"

@@ -1,3 +1,4 @@
+
 Feature: Verificar una nueva cuenta en Accounts Overview
   Background:
     Given El usuario ha iniciado sesión en el sistema con credenciales válidas

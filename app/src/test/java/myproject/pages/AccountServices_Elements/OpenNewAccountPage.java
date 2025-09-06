@@ -1,5 +1,6 @@
 package myproject.pages.AccountServices_Elements;
 
+import myproject.steps.TestContext;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,10 +29,11 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
 
     WebDriver driver;
 
-    public OpenNewAccountPage(WebDriver driver){
+    public OpenNewAccountPage(TestContext testContext){
         super("accountmanagement_page");
-        this.driver=driver;
-        PageFactory.initElements(new AjaxElementLocatorFactory(driver,20),this);
+        this.driver=testContext.getDriver();
+
+        PageFactory.initElements(new AjaxElementLocatorFactory(this.driver,20),this);
     }
 
 
@@ -61,6 +63,9 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
 
     }
     public String SelectValue_fromAccountId(int index){
+
+
+        super.waitForElement(this.driver,this.fromAccountIdTypeSelect,20);
         Select select=new Select(this.fromAccountIdTypeSelect);
         System.out.println(index);
         select.selectByIndex(index);
