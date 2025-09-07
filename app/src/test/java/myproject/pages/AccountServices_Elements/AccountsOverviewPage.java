@@ -44,15 +44,11 @@ public class AccountsOverviewPage extends abs_basics_funtions{
 
     public Element getTableData(){ //List<WebElement>
 
-
-
-        //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        //WebElement tbody=wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(accountTable,By.tagName("tbody")));
         WebElement tbody=accountTable.findElement(By.tagName("tbody"));
 
+        super.waitForVisibilityOf(driver,tbody,10);
+        super.waitPresenceOfNestedElementLocatedBy(driver,tbody,By.tagName("tr"),20);
 
-        super.waitForElement(driver,tbody,10);
 
         String tbodyHtml = Objects.requireNonNull(tbody.getAttribute("outerHTML"));
         Document doc = Jsoup.parse("<table>" + tbodyHtml + "</table>");

@@ -1,10 +1,7 @@
 package myproject.abs;
 
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,9 +23,21 @@ public abstract class abs_basics_funtions{
 
 
 
-    protected void waitForElement(WebDriver driver, WebElement element, int duration) {
+    protected void waitForClickableElement(WebDriver driver, WebElement element, int duration) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(duration));
         wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+    protected void waitForTextToBePresentInElementLocated(WebDriver driver,int duration,String text){
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(duration));
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(By.tagName("body"),text));
+    }
+    protected void waitForVisibilityOf(WebDriver driver,WebElement element,int duration){
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(duration));
+        wait.until(ExpectedConditions.visibilityOf(element));
+    }
+    protected void waitPresenceOfNestedElementLocatedBy(WebDriver driver,WebElement element,By tipo,int duration){
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(duration));
+        wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(element,tipo));
     }
 
 

@@ -11,28 +11,28 @@ import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 public class AccountServicesPage extends abs_basics_funtions{
 
     @FindBy(xpath = "//a[@href='openaccount.htm']")
-    WebElement OpenNewAccount;
+    WebElement openNewAccount;
 
     @FindBy(xpath = "//a[@href='overview.htm']")
-    WebElement AccountsOverview;
+    WebElement accountsOverview;
 
     @FindBy(xpath = "//a[@href='transfer.htm']")
-    WebElement TransferFunds;
+    WebElement transferFunds;
 
     @FindBy(xpath = "//a[@href='findtrans.htm']")
-    WebElement BillPay;
+    WebElement billPay;
 
     @FindBy(xpath = "//a[@href='findtrans.htm']")
-    WebElement FindTransactions;
+    WebElement findTransactions;
 
     @FindBy(xpath = "//a[@href='updateprofile.htm']")
-    WebElement UpdateContactInfo;
+    WebElement updateContactInfo;
 
     @FindBy(xpath = "//a[@href='requestloan.htm']")
-    WebElement RequestLoan;
+    WebElement requestLoan;
 
     @FindBy(xpath = "//a[@href='logout.htm']")
-    WebElement LogOut;
+    WebElement logOut;
 
     WebDriver driver;
 
@@ -44,27 +44,35 @@ public class AccountServicesPage extends abs_basics_funtions{
     }
 
     public void ClickOpenNewAccount(){
-        OpenNewAccount.click();
+        super.waitForClickableElement(this.driver,openNewAccount,20);
+        openNewAccount.click();
     }
     public void ClickAccountsOverview(){
-        AccountsOverview.click();
+        super.waitForClickableElement(this.driver,accountsOverview,20);
+        accountsOverview.click();
     }
     public void ClickTransferFunds(){
-        TransferFunds.click();
+        super.waitForClickableElement(this.driver,transferFunds,20);
+        transferFunds.click();
     }
     public void ClickBillPay(){
-        BillPay.click();
+        super.waitForClickableElement(this.driver,billPay,20);
+        billPay.click();
     }
     public void ClickFindTransactions(){
-        FindTransactions.click();
+        super.waitForClickableElement(this.driver,findTransactions,20);
+        findTransactions.click();
     }
     public void ClickUpdateContactInfo(){
-        UpdateContactInfo.click();
+        super.waitForClickableElement(this.driver,updateContactInfo,20);
+        updateContactInfo.click();
     }
     public void ClickRequestLoan(){
-        RequestLoan.click();
+        super.waitForClickableElement(this.driver,requestLoan,20);
+        requestLoan.click();
     }
     public void ClickLogOut(){
-        LogOut.click();
+        super.waitForClickableElement(this.driver,logOut,20);
+        logOut.click();
     }
 }

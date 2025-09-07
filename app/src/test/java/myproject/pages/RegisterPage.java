@@ -10,9 +10,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RegisterPage extends abs_basics_funtions {
     RegisterData registerData;
+
 
     @FindBy(id = "customer.firstName")
     WebElement First_name;
@@ -70,6 +75,19 @@ public class RegisterPage extends abs_basics_funtions {
 
 
     public void Register() throws Exception {
+        super.waitForClickableElement(this.driver,First_name,20);
+        super.waitForClickableElement(this.driver,Last_name,20);
+        super.waitForClickableElement(this.driver,Address,20);
+        super.waitForClickableElement(this.driver,City,20);
+        super.waitForClickableElement(this.driver,State,20);
+        super.waitForClickableElement(this.driver,ZipCode,20);
+        super.waitForClickableElement(this.driver,Phone,20);
+        super.waitForClickableElement(this.driver,SSN,20);
+        super.waitForClickableElement(this.driver,Username,20);
+        super.waitForClickableElement(this.driver,Password,20);
+        super.waitForClickableElement(this.driver,PasswordConfirm,20);
+
+
 
         this.First_name.sendKeys(registerData.getFirst_Name());
         this.Last_name.sendKeys(registerData.getLast_Name());
@@ -90,6 +108,11 @@ public class RegisterPage extends abs_basics_funtions {
         this.Submit_button.click();
     }
     public void verificarExitoso() throws Exception {
-        Assertions.assertTrue(this.driver.getPageSource().contains("Your account was created successfully"),"VERIFICACION FALLIDA 😡");
+        String textToVerify="Your account was created successfully";
+
+
+        super.waitForTextToBePresentInElementLocated(this.driver,20,textToVerify);
+
+        Assertions.assertTrue(this.driver.getPageSource().contains(textToVerify),"VERIFICACION FALLIDA 😡");
     }
 }

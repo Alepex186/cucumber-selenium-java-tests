@@ -2,6 +2,7 @@ package myproject.pages.AccountServices_Elements;
 
 import myproject.steps.TestContext;
 import org.junit.jupiter.api.Assertions;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,8 +44,9 @@ public class TransferFundsPage extends myproject.abs.abs_basics_funtions{
 
     public String Select_fromAccountId_element(int index){
 
+        super.waitForClickableElement(this.driver,fromAccountId,20);
+        super.waitPresenceOfNestedElementLocatedBy(this.driver,fromAccountId, By.tagName("option"),20);
 
-        super.waitForElement(this.driver,fromAccountId,5);
 
         Select select = new Select(fromAccountId);
         select.selectByIndex(index);
@@ -53,6 +55,10 @@ public class TransferFundsPage extends myproject.abs.abs_basics_funtions{
     }
 
     public String Select_toAccountId(int index){
+        super.waitForClickableElement(this.driver,toAccountId,20);
+        super.waitPresenceOfNestedElementLocatedBy(this.driver,toAccountId, By.tagName("option"),20);
+
+
         Select select = new Select(toAccountId);
         select.selectByIndex(index);
 
@@ -66,7 +72,7 @@ public class TransferFundsPage extends myproject.abs.abs_basics_funtions{
     public void Deberia_visualizarse_el_texto_Transfer_Complete(){
 
 
-        super.waitForElement(this.driver,TransferCompleteMessage,20);
+        super.waitForVisibilityOf(this.driver,TransferCompleteMessage,20);
         System.out.println(TransferCompleteMessage.getText());
         Assertions.assertTrue(TransferCompleteMessage.getText().equals("Transfer Complete!"));
     }

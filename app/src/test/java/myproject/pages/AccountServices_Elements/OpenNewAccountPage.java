@@ -8,7 +8,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
 
@@ -42,20 +46,15 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
     }
 
 
-    private void WaitElement(WebElement element) throws InterruptedException {
-        for(int i=0;i<5;i++){
-            if(element.isDisplayed()){
-                break;
-            }
-            Thread.sleep(1000);
-        }
-    }
 
 
 
     public String SelectValueSelect(int index) throws InterruptedException {
 
-        WaitElement(this.accountTypeSelect);
+        super.waitForClickableElement(this.driver,this.accountTypeSelect,20);
+        super.waitPresenceOfNestedElementLocatedBy(this.driver,this.accountTypeSelect,By.tagName("option"),20);
+
+
         Select select=new Select(this.accountTypeSelect);
         select.selectByIndex(index);
         WebElement selectedOptionId=select.getFirstSelectedOption();
@@ -64,9 +63,11 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
     }
     public String SelectValue_fromAccountId(int index){
 
+        super.waitForClickableElement(this.driver,this.fromAccountIdTypeSelect,20);
+        super.waitPresenceOfNestedElementLocatedBy(this.driver,this.fromAccountIdTypeSelect,By.tagName("option"),20);
 
-        super.waitForElement(this.driver,this.fromAccountIdTypeSelect,20);
         Select select=new Select(this.fromAccountIdTypeSelect);
+
         System.out.println(index);
         select.selectByIndex(index);
         WebElement selectedOption=select.getFirstSelectedOption();
@@ -75,7 +76,7 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
 
     }
     public void sendFormularyOpenNewAccount() throws InterruptedException {
-        WaitElement(this.sendFormularyButton);
+        super.waitForClickableElement(this.driver,this.sendFormularyButton,20);
         sendFormularyButton.click();
     }
 
@@ -86,9 +87,5 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
         return idNewAccount.getText();
 
     }
-
-
-
-
 
 }

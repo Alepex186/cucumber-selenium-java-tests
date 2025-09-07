@@ -15,7 +15,6 @@ import org.junit.jupiter.api.Assertions;
 public class LoginPage extends abs_basics_funtions {
     //private static final Log log = LogFactory.getLog(LoginPage.class);
 
-
     //SELECTORS
     @FindBy(xpath = "//input[@type='text' and @class='input' and @name='username']")
     WebElement username_element;
@@ -54,22 +53,24 @@ public class LoginPage extends abs_basics_funtions {
 
 
     public void sendKeysUsername_element(String username) {
+        super.waitForClickableElement(this.driver,username_element,20);
         this.username_element.sendKeys(username);
     }
 
     public void sendKeysPassword_element(String password) {
+        super.waitForClickableElement(this.driver,password_element,20);
         this.password_element.sendKeys(password);
     }
 
     public void clickLogin_button() {
+        super.waitForClickableElement(this.driver,login_button,20);
         this.login_button.click();
     }
 
     public void verificarExitoso(String mensaje) throws Exception {
-        Assertions.assertTrue(this.referencia_verificar.isDisplayed(),"VERIFICACION FALLIDA😡");
+        Assertions.assertTrue(this.referencia_verificar.isDisplayed(),"VERIFICACION FALLIDA");
     }
     public void verificarFallido(String mensaje){
         Assertions.assertTrue(this.referencia_verificar_fallido.isDisplayed(),"VERIFICACION FALLIDA");
-        //Assertions.assertEquals(mensaje,this.referencia_verificar_fallido.getText(),"VERIFICACION DE MENSAJE FALLIDA");
     }
 }
