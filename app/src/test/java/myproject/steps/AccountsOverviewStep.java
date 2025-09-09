@@ -7,15 +7,8 @@ import io.cucumber.java.en.When;
 import myproject.pages.AccountServicesPage;
 import myproject.pages.AccountServices_Elements.AccountsOverviewPage;
 import myproject.pages.AccountServices_Elements.OpenNewAccountPage;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
-import java.util.List;
-import java.util.Objects;
 
 public class AccountsOverviewStep {
     TestContext testContext=Hooks.getThreadLocalContext().get();
@@ -42,7 +35,6 @@ public class AccountsOverviewStep {
     @When("El usuario navega a Open New Account y crea una nueva cuenta")
     public void openNewAccount() throws Exception {
         this.accountServicesPage.ClickOpenNewAccount();
-        //Thread.sleep(10000); // 2 segundos
         this.openNewAccountPage.SelectValueSelect(0);
         this.FromtransferredAccountId= this.openNewAccountPage.SelectValue_fromAccountId(0);
         this.openNewAccountPage.sendFormularyOpenNewAccount();
@@ -51,9 +43,6 @@ public class AccountsOverviewStep {
 
     @And("El usuario regresa a la pagina de Accounts Overview")
     public void accountOverviewReturn(){
-
-
-
         this.accountServicesPage.ClickAccountsOverview();
 
         Element tbody = accountsOverviewPage.getTableData();

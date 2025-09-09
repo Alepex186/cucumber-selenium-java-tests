@@ -8,11 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 
 public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
 
@@ -41,9 +38,7 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
     }
 
 
-    public void OpenNewAccountClick(){
-        openNewAccountButton.click();
-    }
+
 
 
 
@@ -68,7 +63,6 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
 
         Select select=new Select(this.fromAccountIdTypeSelect);
 
-        System.out.println(index);
         select.selectByIndex(index);
         WebElement selectedOption=select.getFirstSelectedOption();
         return selectedOption.getText();
@@ -81,7 +75,6 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
     }
 
     public String verifyCreatedAccount() throws Exception {
-        super.TakesScreenshot(this.driver);
         Assertions.assertTrue(this.driver.getPageSource().contains("Congratulations, your account is now open."),"NO SE HA PODIDO CREAR LA CUENTA");
         WebElement idNewAccount=this.driver.findElement(By.id("newAccountId"));
         return idNewAccount.getText();

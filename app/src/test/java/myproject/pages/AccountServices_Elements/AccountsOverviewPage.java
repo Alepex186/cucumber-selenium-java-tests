@@ -12,14 +12,6 @@ import org.openqa.selenium.support.FindBy;
 import myproject.abs.abs_basics_funtions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.lang.reflect.Array;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.time.Duration;
-import java.util.List;
 import java.util.Objects;
 
 import org.jsoup.Jsoup;
@@ -30,10 +22,10 @@ public class AccountsOverviewPage extends abs_basics_funtions{
     @FindBy(xpath = "//table[@id='accountTable']")
     WebElement accountTable;
     WebDriver driver;
-//    List<WebElement> elementos1;
-//    List<WebElement> elementos2;
-    Element elementos1;
-    Element elementos2;
+
+
+    Element element1;
+    Element element2;
 
 
     public AccountsOverviewPage(TestContext testContext){
@@ -42,7 +34,7 @@ public class AccountsOverviewPage extends abs_basics_funtions{
         PageFactory.initElements(new AjaxElementLocatorFactory(driver,20),this);
     }
 
-    public Element getTableData(){ //List<WebElement>
+    public Element getTableData(){
 
         WebElement tbody=accountTable.findElement(By.tagName("tbody"));
 
@@ -82,114 +74,103 @@ public class AccountsOverviewPage extends abs_basics_funtions{
 
 
     public void verifyTables(String fromtransferredAccountId, String newAccountId) throws Exception {
-        if (this.elementos1==null || this.elementos2==null) {
+        if (this.element1==null || this.element2==null) {
             throw new AssertionError("NO HAZ DE DEFINIDO LOS ELEMENTOS DE LAS TABLAS");
         }
 
-        Elements trdocument1=elementos1.select("tr");
-        Elements trdocument2=elementos2.select("tr");
+        Elements trdocument1=element1.select("tr");
+        Elements trdocument2=element2.select("tr");
 
-
-        System.out.println("trdocument1.size() :"+ trdocument1.size());
-        System.out.println("trdocument2.size() :"+ trdocument2.size());
 
         Assertions.assertTrue(trdocument1.size() + 1 == trdocument2.size(),"LA TABLA NO INCREMENTÓ EN 1 FILA DESPUÉS DE LA ACCIÓN");
 
-        System.out.println("fromtransferredAccountId : "+fromtransferredAccountId);
-        System.out.println("newAccountId : "+newAccountId);
 
-        int newAccountElementIndex=searchElementID(elementos2,newAccountId);
-        System.out.println("newAccountElementIndex : " +newAccountElementIndex);
-        int newAccountElementFromtransferredAccount=searchElementID(elementos2,fromtransferredAccountId);
-        System.out.println("newAccountElementFromtransferredAccount : "+newAccountElementFromtransferredAccount);
-        int LastAccountElementFromtransferredAccount=searchElementID(elementos1,fromtransferredAccountId);
-        System.out.println("LastAccountElementFromtransferredAccount : "+LastAccountElementFromtransferredAccount);
+        int newAccountElementIndex=searchElementID(element2,newAccountId);
+        int newAccountElementFromtransferredAccount=searchElementID(element2,fromtransferredAccountId);
+        int LastAccountElementFromtransferredAccount=searchElementID(element1,fromtransferredAccountId);
 
 
 
 
-        double ActuallyMoneyNewAccount=cleanMoney(trdocument2.get(newAccountElementIndex).select("td").get(1).text());
+        double actuallyMoneyNewAccount=cleanMoney(trdocument2.get(newAccountElementIndex).select("td").get(1).text());
 
-        double ActuallyMoneyFromtransferredAccount=cleanMoney(trdocument2.get(newAccountElementFromtransferredAccount).select("td").get(1).text());
+        double actuallyMoneyFromtransferredAccount=cleanMoney(trdocument2.get(newAccountElementFromtransferredAccount).select("td").get(1).text());
 
-        double BeforeMoneyFromtransferredAccount=cleanMoney(trdocument1.get(LastAccountElementFromtransferredAccount).select("td").get(1).text());
+        double beforeMoneyFromtransferredAccount=cleanMoney(trdocument1.get(LastAccountElementFromtransferredAccount).select("td").get(1).text());
 
-
-        Assertions.assertTrue(ActuallyMoneyNewAccount+ActuallyMoneyFromtransferredAccount == BeforeMoneyFromtransferredAccount,"El dinero acreditado no es valido");
+        Assertions.assertTrue(actuallyMoneyNewAccount+actuallyMoneyFromtransferredAccount == beforeMoneyFromtransferredAccount,"El dinero acreditado no es valido");
 
     }
 
-
-//    public void verifyTablesAmount(String fromtransferredAccountId, String toAccountId,double amountToVerify) throws Exception {
     public void verifyTablesAmount(String typeaccount,String AccountId,double amountToVerify) throws Exception {
-        Elements trdocument1=elementos1.select("tr");
-        Elements trdocument2=elementos2.select("tr");
-
-
+        Elements trdocument1=element1.select("tr");
+        Elements trdocument2=element2.select("tr");
 
 
         if(typeaccount.equals("origen")){
-            System.out.println(typeaccount);
-            System.out.println("fromtransferredAccountId : " + AccountId);
-            int beforeFromAccount=searchElementID(elementos1,AccountId);
-            int afterFromAccount=searchElementID(elementos2,AccountId);
+            int beforeFromAccount=searchElementID(element1,AccountId);
+            int afterFromAccount=searchElementID(element2,AccountId);
             double beforeFromAccountMoney=cleanMoney(trdocument1.get(beforeFromAccount).select("td").get(1).text());
             double afterFromAccountMoney=cleanMoney(trdocument2.get(afterFromAccount).select("td").get(1).text());
 
-            System.out.println("beforeFromAccountMoney: "+beforeFromAccountMoney);
-            System.out.println("afterFromAccountMoney: "+afterFromAccountMoney);
-            System.out.println("amountToVerify" +amountToVerify);
-            System.out.println(beforeFromAccountMoney+amountToVerify);
             Assertions.assertTrue(afterFromAccountMoney==beforeFromAccountMoney+amountToVerify,"El dinero de origen  no es valido");
 
 
         }else {
-            System.out.println(typeaccount);
 
-            System.out.println("toAccount : " + AccountId);
-
-            int beforeToAccount=searchElementID(elementos1,AccountId);
-            int afterToAccount=searchElementID(elementos2,AccountId);
+            int beforeToAccount=searchElementID(element1,AccountId);
+            int afterToAccount=searchElementID(element2,AccountId);
 
             double beforeToAccountMoney=cleanMoney(trdocument1.get(beforeToAccount).select("td").get(1).text());
             double afterToAccountMoney=cleanMoney(trdocument2.get(afterToAccount).select("td").get(1).text());
 
 
-            System.out.println("beforeToAccountMoney: "+beforeToAccountMoney);
-            System.out.println("afterToAccountMoney: "+afterToAccountMoney);
-            System.out.println("amountToVerify" +amountToVerify);
-
-            System.out.println(beforeToAccountMoney+"    "+afterToAccountMoney+"  "+amountToVerify);
 
 
             Assertions.assertTrue(beforeToAccountMoney==afterToAccountMoney+amountToVerify);
-
-//            Assertions.assertEquals(beforeToAccountMoney, afterToAccountMoney + amountToVerify, 0.0001,
-//                    "El dinero de destino no es válido");
         }
-
-
     }
 
 
 
+    public void verifyTableSameAccount(String account,float money) throws Exception {
+        if (this.element1==null || this.element2==null) {
+            throw new AssertionError("NO HAZ DE DEFINIDO LOS ELEMENTOS DE LAS TABLAS");
+        }
+
+        Elements trdocument1=element1.select("tr");
+        Elements trdocument2=element2.select("tr");
+
+
+        int afterAccount=searchElementID(element2,account);
+        int beforeAccount=searchElementID(element1,account);
+
+        double beforeMoney=cleanMoney(trdocument1.get(beforeAccount).select("td").get(1).text());
+        double afterMoney=cleanMoney(trdocument2.get(afterAccount).select("td").get(1).text());
+        System.out.println(beforeMoney);
+        System.out.println(afterMoney);
+        System.out.println(money);
+        System.out.println(account);
+        Assertions.assertTrue(beforeMoney+money==afterMoney,"El dinero acreditado no es valido");
+
+    }
 
 
 
 
     public Element getElementos1() {
-        return elementos1;
+        return element1;
     }
 
     public void setElementos1(Element elementos1) {
-        this.elementos1 = elementos1;
+        this.element1 = elementos1;
     }
 
     public Element getElementos2() {
-        return elementos2;
+        return element2;
     }
 
     public void setElementos2(Element elementos2) {
-        this.elementos2 = elementos2;
+        this.element2 = elementos2;
     }
 }

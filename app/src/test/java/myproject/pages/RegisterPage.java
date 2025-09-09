@@ -100,7 +100,6 @@ public class RegisterPage extends abs_basics_funtions {
         this.Username.sendKeys(registerData.getUsername());
         this.Password.sendKeys(registerData.getPassword());
         this.PasswordConfirm.sendKeys(registerData.getPassword());
-        super.TakesScreenshot(this.driver);
 
     }
 

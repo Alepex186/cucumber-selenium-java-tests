@@ -19,7 +19,7 @@ public class AccountServicesPage extends abs_basics_funtions{
     @FindBy(xpath = "//a[@href='transfer.htm']")
     WebElement transferFunds;
 
-    @FindBy(xpath = "//a[@href='findtrans.htm']")
+    @FindBy(xpath = "//a[@href='billpay.htm']")
     WebElement billPay;
 
     @FindBy(xpath = "//a[@href='findtrans.htm']")

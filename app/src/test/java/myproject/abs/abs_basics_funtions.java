@@ -15,6 +15,9 @@ import java.io.File;
 public abstract class abs_basics_funtions{
     String current_page_name;
     File folder_screenshot=new File("screenshot");
+    protected static final int TIMEOUT = 20;
+
+
 
 
     public abs_basics_funtions(String current_page_name){
@@ -35,9 +38,9 @@ public abstract class abs_basics_funtions{
         WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(duration));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
-    protected void waitPresenceOfNestedElementLocatedBy(WebDriver driver,WebElement element,By tipo,int duration){
+    protected void waitPresenceOfNestedElementLocatedBy(WebDriver driver,WebElement element,By type,int duration){
         WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(duration));
-        wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(element,tipo));
+        wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(element,type));
     }
 
 
@@ -64,8 +67,5 @@ public abstract class abs_basics_funtions{
         }
         return true;
     }
-
-
-
 
 }

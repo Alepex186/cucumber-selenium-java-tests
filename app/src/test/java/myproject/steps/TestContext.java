@@ -1,9 +1,7 @@
 package myproject.steps;
 
 import myproject.pages.AccountServicesPage;
-import myproject.pages.AccountServices_Elements.AccountsOverviewPage;
-import myproject.pages.AccountServices_Elements.OpenNewAccountPage;
-import myproject.pages.AccountServices_Elements.TransferFundsPage;
+import myproject.pages.AccountServices_Elements.*;
 import myproject.pages.LoginPage;
 import myproject.pages.RegisterPage;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +13,8 @@ public class TestContext {
     private final ThreadLocal<TransferFundsPage> transferFundsPage=new ThreadLocal<>();
     private final ThreadLocal<LoginPage> loginPage=new ThreadLocal<>();
     private  final ThreadLocal<RegisterPage> registerPage=new ThreadLocal<>();
-
+    private  final ThreadLocal<BillPayPage> billPayPage=new ThreadLocal<>();
+    private final ThreadLocal<FindTransactionsPage> findTransactionsPage=new ThreadLocal<>();
 
 
     private WebDriver driver;
@@ -30,6 +29,8 @@ public class TestContext {
         this.transferFundsPage.set(new TransferFundsPage(this));
         this.loginPage.set(new LoginPage(this));
         this.registerPage.set(new RegisterPage(this));
+        this.billPayPage.set(new BillPayPage(this));
+        this.findTransactionsPage.set(new FindTransactionsPage(this));
     }
 
 
@@ -55,6 +56,14 @@ public class TestContext {
 
     public RegisterPage getRegisterPage() {
         return registerPage.get();
+    }
+
+    public BillPayPage getBillPayPage() {
+        return billPayPage.get();
+    }
+
+    public FindTransactionsPage getFindTransactionsPage() {
+        return findTransactionsPage.get();
     }
 
     public WebDriver getDriver() {

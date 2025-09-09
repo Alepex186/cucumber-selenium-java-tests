@@ -4,14 +4,6 @@ import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
-
-import java.net.CookieManager;
-import java.net.CookiePolicy;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -50,8 +42,5 @@ public class Hooks {
             driver.quit();
             threadLocalWebdriver.remove();
         }
-
-        System.out.println("CLOSED DRIVER");
     }
-
 }

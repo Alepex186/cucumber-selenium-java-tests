@@ -5,7 +5,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import myproject.pages.AccountServicesPage;
 import myproject.pages.AccountServices_Elements.OpenNewAccountPage;
-import org.openqa.selenium.WebDriver;
 
 public class OpenNewAccountStep {
 
@@ -46,6 +45,4 @@ public class OpenNewAccountStep {
      public void verificar(String string) throws Exception {
         this.openNewAccountPage.verifyCreatedAccount();
     }
-
-
 }

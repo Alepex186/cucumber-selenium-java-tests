@@ -8,7 +8,6 @@ import myproject.pages.AccountServicesPage;
 import myproject.pages.AccountServices_Elements.AccountsOverviewPage;
 import myproject.pages.AccountServices_Elements.TransferFundsPage;
 import org.jsoup.nodes.Element;
-import org.openqa.selenium.WebDriver;
 
 public class TransferFundsStep {
     TestContext testContext=Hooks.getThreadLocalContext().get();
@@ -50,14 +49,12 @@ public class TransferFundsStep {
     @And("Selecciona la cuenta de origen")
     public void Selecciona_la_cuenta_de_origen(){
         this.fromAccountId= this.transferFundsPage.Select_fromAccountId_element(0);
-        System.out.println("$$$$$$$$$$$ fromAccountId :" +fromAccountId);
 
     }
 
     @And("Selecciona la cuenta de destino")
     public void Selecciona_la_cuenta_de_destino(){
         this.toAccountId= transferFundsPage.Select_toAccountId(1);
-        System.out.println("$$$$$$$$$$$ toAccountId :" +toAccountId);
 
     }
 
@@ -75,8 +72,6 @@ public class TransferFundsStep {
     public void El_saldo_de_la_cuenta_de_origen_disminuye_dolares(String account,String amount) throws Exception {
         this.accountsOverviewPage.verifyTablesAmount(account,this.fromAccountId,Double.parseDouble(amount));
     }
-
-
 
 
 }

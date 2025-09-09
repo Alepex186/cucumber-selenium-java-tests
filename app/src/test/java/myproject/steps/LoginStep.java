@@ -1,21 +1,11 @@
 package myproject.steps;
 
-import io.cucumber.core.internal.com.fasterxml.jackson.databind.ObjectMapper;
-import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import myproject.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.io.File;
-import java.net.*;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.util.Map;
 
 public class LoginStep {
     TestContext testContext=Hooks.getThreadLocalContext().get();
@@ -73,7 +63,7 @@ public class LoginStep {
     @Given("El usuario ha iniciado sesión en el sistema con credenciales válidas")
     public void procesoCompletoLogin() throws Exception {
         loginPage.GetUrl();
-        loginPage.sendKeysUsername_element("test1234");
+        loginPage.sendKeysUsername_element("test123456");
         loginPage.sendKeysPassword_element("123456");
         loginPage.clickLogin_button();
     }
