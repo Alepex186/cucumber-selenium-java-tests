@@ -37,6 +37,7 @@ public class AccountsOverviewStep {
         this.accountServicesPage.ClickOpenNewAccount();
         this.openNewAccountPage.SelectValueSelect(0);
         this.FromtransferredAccountId= this.openNewAccountPage.SelectValue_fromAccountId(0);
+        System.out.println(this.FromtransferredAccountId);
         this.openNewAccountPage.sendFormularyOpenNewAccount();
         this.NewAccountId=this.openNewAccountPage.verifyCreatedAccount();
     }
@@ -52,7 +53,10 @@ public class AccountsOverviewStep {
 
     @Then("deberia visualizarse una nueva cuenta en la lista, con el id visualizado al crear la cuenta")
     public void verify() throws Exception {
-        accountsOverviewPage.verifyTables(FromtransferredAccountId,NewAccountId);
+        System.out.println(this.FromtransferredAccountId);
+        System.out.println(this.NewAccountId);
+
+        accountsOverviewPage.verifyTables(this.FromtransferredAccountId,this.NewAccountId);
     }
 
 }

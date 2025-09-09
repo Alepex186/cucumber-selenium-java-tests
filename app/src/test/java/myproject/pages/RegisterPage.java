@@ -1,8 +1,7 @@
 package myproject.pages;
 
-import io.cucumber.java.en.And;
 import myproject.abs.abs_basics_funtions;
-import myproject.objs.RegisterData;
+import myproject.objs.FakeUserData;
 import myproject.steps.TestContext;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
@@ -10,13 +9,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class RegisterPage extends abs_basics_funtions {
-    RegisterData registerData;
+    FakeUserData fakeUserData;
 
 
     @FindBy(id = "customer.firstName")
@@ -63,7 +58,7 @@ public class RegisterPage extends abs_basics_funtions {
     public RegisterPage(TestContext testContext){
         super("register_page");
         this.driver=testContext.getDriver();
-        this.registerData= new RegisterData();
+        this.fakeUserData = new FakeUserData();
 
         PageFactory.initElements(new AjaxElementLocatorFactory(driver,20),this);
     }
@@ -89,17 +84,17 @@ public class RegisterPage extends abs_basics_funtions {
 
 
 
-        this.First_name.sendKeys(registerData.getFirst_Name());
-        this.Last_name.sendKeys(registerData.getLast_Name());
-        this.Address.sendKeys(registerData.getAddress());
-        this.City.sendKeys(registerData.getCity());
-        this.State.sendKeys(registerData.getState());
-        this.ZipCode.sendKeys(registerData.getZip_Code());
-        this.Phone.sendKeys(registerData.getPhone());
-        this.SSN.sendKeys(registerData.getSSN());
-        this.Username.sendKeys(registerData.getUsername());
-        this.Password.sendKeys(registerData.getPassword());
-        this.PasswordConfirm.sendKeys(registerData.getPassword());
+        this.First_name.sendKeys(fakeUserData.getFirst_Name());
+        this.Last_name.sendKeys(fakeUserData.getLast_Name());
+        this.Address.sendKeys(fakeUserData.getAddress());
+        this.City.sendKeys(fakeUserData.getCity());
+        this.State.sendKeys(fakeUserData.getState());
+        this.ZipCode.sendKeys(fakeUserData.getZip_Code());
+        this.Phone.sendKeys(fakeUserData.getPhone());
+        this.SSN.sendKeys(fakeUserData.getSSN());
+        this.Username.sendKeys(fakeUserData.getUsername());
+        this.Password.sendKeys(fakeUserData.getPassword());
+        this.PasswordConfirm.sendKeys(fakeUserData.getPassword());
 
     }
 

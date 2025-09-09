@@ -43,6 +43,10 @@ public abstract class abs_basics_funtions{
         wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(element,type));
     }
 
+    protected void waitVisibilityOfAllElementsLocatedBy(WebDriver driver,By locator,int duration){
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(duration));
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
+    }
 
     public boolean TakesScreenshot(WebDriver driver) throws Exception{
         File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

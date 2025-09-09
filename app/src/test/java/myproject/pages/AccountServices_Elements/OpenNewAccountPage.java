@@ -8,7 +8,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.List;
 
 
 public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
@@ -56,19 +61,20 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
         return selectedOptionId.getText();
 
     }
-    public String SelectValue_fromAccountId(int index){
+    public String SelectValue_fromAccountId(int index) {
+        System.out.println("index " + index);
 
-        super.waitForClickableElement(this.driver,this.fromAccountIdTypeSelect,20);
-        super.waitPresenceOfNestedElementLocatedBy(this.driver,this.fromAccountIdTypeSelect,By.tagName("option"),20);
+        super.waitForClickableElement(this.driver,this.fromAccountIdTypeSelect,TIMEOUT);
+        super.waitVisibilityOfAllElementsLocatedBy(this.driver,By.cssSelector("option"),20);
 
-        Select select=new Select(this.fromAccountIdTypeSelect);
 
+        Select select = new Select(this.fromAccountIdTypeSelect);
         select.selectByIndex(index);
-        WebElement selectedOption=select.getFirstSelectedOption();
-        return selectedOption.getText();
 
-
+        System.out.println("select.getFirstSelectedOption().getText() "+select.getFirstSelectedOption().getText());
+        return select.getFirstSelectedOption().getText();
     }
+
     public void sendFormularyOpenNewAccount() throws InterruptedException {
         super.waitForClickableElement(this.driver,this.sendFormularyButton,20);
         sendFormularyButton.click();

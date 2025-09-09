@@ -78,17 +78,17 @@ public class AccountsOverviewPage extends abs_basics_funtions{
             throw new AssertionError("NO HAZ DE DEFINIDO LOS ELEMENTOS DE LAS TABLAS");
         }
 
+        System.out.println("NEWACCOUNTid : "+newAccountId);
         Elements trdocument1=element1.select("tr");
         Elements trdocument2=element2.select("tr");
 
 
         Assertions.assertTrue(trdocument1.size() + 1 == trdocument2.size(),"LA TABLA NO INCREMENTÓ EN 1 FILA DESPUÉS DE LA ACCIÓN");
 
-
         int newAccountElementIndex=searchElementID(element2,newAccountId);
+
         int newAccountElementFromtransferredAccount=searchElementID(element2,fromtransferredAccountId);
         int LastAccountElementFromtransferredAccount=searchElementID(element1,fromtransferredAccountId);
-
 
 
 

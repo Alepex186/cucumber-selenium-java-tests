@@ -3,7 +3,6 @@ package myproject.pages;
 
 import myproject.abs.abs_basics_funtions;
 
-import myproject.objs.RegisterData;
 import myproject.steps.TestContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -3,7 +3,7 @@ package myproject.objs;
 import com.github.javafaker.Faker;
 import java.util.Random;
 
-public class RegisterData {
+public class FakeUserData {
     String First_Name;
     String Last_Name;
     String Address;
@@ -17,7 +17,7 @@ public class RegisterData {
     String Password;
 
     Faker faker;
-    public RegisterData(){
+    public FakeUserData(){
         Random random=new Random();
         this.faker=new Faker();
         this.First_Name=this.faker.name().firstName();
