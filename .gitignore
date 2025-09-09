@@ -6,3 +6,7 @@ build
 *.txt
 *.log
 *.log
+*.log
+apache-tomcat-10.1.44/logs/catalina.2025-09-04.log
+apache-tomcat-10.1.44/logs/localhost.2025-09-04.log
+apache-tomcat-10.1.44/logs/localhost_access_log.2025-09-04.txt
