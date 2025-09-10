@@ -62,8 +62,6 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
 
     }
     public String SelectValue_fromAccountId(int index) {
-        System.out.println("index " + index);
-
         super.waitForClickableElement(this.driver,this.fromAccountIdTypeSelect,TIMEOUT);
         super.waitVisibilityOfAllElementsLocatedBy(this.driver,By.cssSelector("option"),20);
 
@@ -71,7 +69,6 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
         Select select = new Select(this.fromAccountIdTypeSelect);
         select.selectByIndex(index);
 
-        System.out.println("select.getFirstSelectedOption().getText() "+select.getFirstSelectedOption().getText());
         return select.getFirstSelectedOption().getText();
     }
 
@@ -82,7 +79,10 @@ public class OpenNewAccountPage extends myproject.abs.abs_basics_funtions{
 
     public String verifyCreatedAccount() throws Exception {
         Assertions.assertTrue(this.driver.getPageSource().contains("Congratulations, your account is now open."),"NO SE HA PODIDO CREAR LA CUENTA");
+
         WebElement idNewAccount=this.driver.findElement(By.id("newAccountId"));
+        super.waitForVisibilityOf(this.driver,idNewAccount,TIMEOUT);
+
         return idNewAccount.getText();
 
     }
