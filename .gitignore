@@ -12,3 +12,8 @@ build
 apache-tomcat-10.1.44/logs/catalina.2025-09-04.log
 apache-tomcat-10.1.44/logs/localhost.2025-09-04.log
 apache-tomcat-10.1.44/logs/localhost_access_log.2025-09-04.txt
+db.script
+apache-tomcat-10.1.44/logs/catalina.2025-09-04.log
+apache-tomcat-10.1.44/logs/catalina.2025-09-04.log
+apache-tomcat-10.1.44/webapps/parabank/WEB-INF/db/db.properties
+apache-tomcat-10.1.44/webapps/parabank/WEB-INF/db/db.script
