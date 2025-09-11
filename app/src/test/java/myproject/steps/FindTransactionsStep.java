@@ -15,7 +15,14 @@ public class FindTransactionsStep {
     FindTransactionsPage findTransactionsPage=testContext.getFindTransactionsPage();
 
 
-    @Given("El usuario esta en el apartado de Find Transactions")
+
+    @And("El usuario ha seleccionado una cuenta")
+    public void elUsuarioHaSeleccionadoUnaCuenta(){
+        findTransactionsPage.selectAnAccount();
+    }
+
+
+    @And("El usuario esta en el apartado de Find Transactions")
     public void elUsuarioEstaEnElApartadoDeFindTransactions(){
         accountServicesPage.ClickFindTransactions();
     }
