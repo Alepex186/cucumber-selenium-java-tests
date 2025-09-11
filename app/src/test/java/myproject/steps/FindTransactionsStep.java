@@ -7,6 +7,8 @@ import io.cucumber.java.en.When;
 import myproject.pages.AccountServicesPage;
 import myproject.pages.AccountServices_Elements.FindTransactionsPage;
 
+import java.time.LocalDate;
+
 public class FindTransactionsStep {
     TestContext testContext=Hooks.getThreadLocalContext().get();
     AccountServicesPage accountServicesPage=testContext.getAccountServicesPage();
@@ -20,7 +22,7 @@ public class FindTransactionsStep {
 
     @When("El usuario ingresa la fecha a buscar en Find by Date")
     public void elUsuarioIngresaLaFechaABuscarEnFindByDate(){
-        findTransactionsPage.findByDate("09-05-2025");
+        findTransactionsPage.findByDate("12-12-"+ (LocalDate.now().getYear()-1));
     }
 
     @And("El Usuario hace click en FINDS TRANSACTIONS del apartado Find by Date")
@@ -36,7 +38,7 @@ public class FindTransactionsStep {
 
     @When("El usuario ingresa las fechas a buscar en Find by Date Range")
     public void elUsuarioIngresaLasFechasABuscarEnFindByDateRange(){
-        findTransactionsPage.findByDateRange("01-01-2000","01-01-2026");
+        findTransactionsPage.findByDateRange("01-01-2000","01-01-2030");
     }
 
     @And("El Usuario hace click en FINDS TRANSACTIONS del apartado Find by Date Range")

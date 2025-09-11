@@ -63,8 +63,8 @@ public class LoginStep {
     @Given("El usuario ha iniciado sesión en el sistema con credenciales válidas")
     public void procesoCompletoLogin() throws Exception {
         loginPage.GetUrl();
-        loginPage.sendKeysUsername_element("test1234");
-        loginPage.sendKeysPassword_element("123456");
+        loginPage.sendKeysUsername_element("john");
+        loginPage.sendKeysPassword_element("demo");
         loginPage.clickLogin_button();
     }
 }
