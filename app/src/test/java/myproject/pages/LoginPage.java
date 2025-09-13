@@ -39,6 +39,15 @@ public class LoginPage extends abs_basics_funtions {
 
     WebDriver driver;
 
+
+    @FindBy(xpath = "//div[@id='leftPanel']//h2")
+    WebElement leftPanelCustomerLoginMessageElement;
+
+    String leftPanelCustomerLoginMessage="Customer Login";
+
+
+
+
     public LoginPage(TestContext testContext) {
         super("login_page");
         this.driver=testContext.getDriver();
@@ -71,5 +80,10 @@ public class LoginPage extends abs_basics_funtions {
     }
     public void verificarFallido(String mensaje){
         Assertions.assertTrue(this.referencia_verificar_fallido.isDisplayed(),"VERIFICACION FALLIDA");
+    }
+
+    public void verifyIsOnThisPage() {
+        super.waitForVisibilityOf(this.driver,this.leftPanelCustomerLoginMessageElement,TIMEOUT);
+        Assertions.assertEquals(this.leftPanelCustomerLoginMessageElement.getText(),this.leftPanelCustomerLoginMessage);
     }
 }
