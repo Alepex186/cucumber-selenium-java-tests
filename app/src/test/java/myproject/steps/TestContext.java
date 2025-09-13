@@ -16,6 +16,9 @@ public class TestContext {
     private  final ThreadLocal<BillPayPage> billPayPage=new ThreadLocal<>();
     private final ThreadLocal<FindTransactionsPage> findTransactionsPage=new ThreadLocal<>();
     private final ThreadLocal<UpdateProfilePage> updateProfilePage=new ThreadLocal<>();
+    private final ThreadLocal<RequestLoanPage> requestLoanPage=new ThreadLocal<>();
+
+
 
     private WebDriver driver;
 
@@ -32,6 +35,7 @@ public class TestContext {
         this.billPayPage.set(new BillPayPage(this));
         this.findTransactionsPage.set(new FindTransactionsPage(this));
         this.updateProfilePage.set(new UpdateProfilePage(this));
+        this.requestLoanPage.set(new RequestLoanPage(this));
     }
 
 
@@ -67,9 +71,12 @@ public class TestContext {
         return findTransactionsPage.get();
     }
 
-
     public UpdateProfilePage getUpdateProfilePage() {
         return updateProfilePage.get();
+    }
+
+    public RequestLoanPage getRequestLoanPage() {
+        return requestLoanPage.get();
     }
 
     public WebDriver getDriver() {
