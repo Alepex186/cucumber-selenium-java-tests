@@ -21,25 +21,25 @@ public class RegisterStep {
     }
 
 
-    @Given("Ingreso a la pagina de registro")
-    public void ingresarAUrl(){
+    @Given("El usuario ingresa a la página de registro")
+    public void usuarioIngresaRegistro() {
         registerPage.GetUrl();
     }
 
-    @When("Cuando completo el formulario con datos valido generados")
-    public void completarFormulario() throws Exception {
+    @When("El usuario completa el formulario con datos válidos generados automáticamente")
+    public void usuarioCompletaFormulario() throws Exception {
         registerPage.Register();
     }
 
-    @And("Y hago click en el boton para enviar el formulario")
-    public void enviarFormulario(){
+    @And("El usuario hace clic en el botón para enviar el formulario")
+    public void usuarioEnviaFormulario() {//ASD ENPECE A HACER ESTO DESDE AQUI
         registerPage.enviarFormulario();
     }
 
 
-    @Then("deberia ver la pagina principal del usuario")
-    public void verificarExitoso() throws Exception {
-        registerPage.verificarExitoso();
+    @Then("El usuario debería ser redirigido a la página principal")
+    public void usuarioVePaginaPrincipal() throws Exception {
+        registerPage.verificarExitoso();  //ASD
     }
 
 

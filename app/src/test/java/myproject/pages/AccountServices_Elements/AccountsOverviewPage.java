@@ -67,7 +67,6 @@ public class AccountsOverviewPage extends abs_basics_funtions{
                 };
             }
         }
-        System.out.println("elemento a encontrar:  " + elemento_to_find);
         throw new Exception("ELEMENTO NO ENCONTRADO");
     }
 
@@ -78,7 +77,6 @@ public class AccountsOverviewPage extends abs_basics_funtions{
             throw new AssertionError("NO HAZ DE DEFINIDO LOS ELEMENTOS DE LAS TABLAS");
         }
 
-        System.out.println("NEWACCOUNTid : "+newAccountId);
         Elements trdocument1=element1.select("tr");
         Elements trdocument2=element2.select("tr");
 
@@ -147,10 +145,7 @@ public class AccountsOverviewPage extends abs_basics_funtions{
 
         double beforeMoney=cleanMoney(trdocument1.get(beforeAccount).select("td").get(1).text());
         double afterMoney=cleanMoney(trdocument2.get(afterAccount).select("td").get(1).text());
-        System.out.println(beforeMoney);
-        System.out.println(afterMoney);
-        System.out.println(money);
-        System.out.println(account);
+
         Assertions.assertTrue(beforeMoney+money==afterMoney,"El dinero acreditado no es valido");
 
     }

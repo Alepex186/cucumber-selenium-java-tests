@@ -1,6 +1,7 @@
 package myproject.pages;
 
 
+import myproject.abs.Config;
 import myproject.abs.abs_basics_funtions;
 
 import myproject.steps.TestContext;
@@ -35,7 +36,7 @@ public class LoginPage extends abs_basics_funtions {
     @FindBy(xpath = "//p[@class='error']")
     WebElement referencia_verificar_fallido;
 
-    String url="http://localhost:8080/parabank/index.htm";//"https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC";
+    String url= Config.getProperty("login_url");
 
     WebDriver driver;
 

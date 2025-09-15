@@ -5,8 +5,8 @@ Feature: Actualizar perfil del usuario
 
 
   Scenario: Actualizar perfil del usuario
-    Given El usuario esta en el apartado de Update Contact Info
-    When El usuario actualiza el formulario con sus nuevos datos
+    Given El usuario se encuentra en el apartado Update Contact Info
+    When El usuario completa el formulario con sus nuevos datos
       And El usuario hace click en el boton UPDATE PROFILE
-    Then Deberia aparecer el mensaje Profile Updated
-      And Al regresar a el apartado de Update Contact Info, deberia ver sus datos actualizados
+    Then El usuario debería visualizar el mensaje Profile Updated
+      And Al regresar al apartado Update Contact Info, el usuario debería visualizar sus datos actualizados

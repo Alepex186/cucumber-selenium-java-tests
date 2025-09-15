@@ -12,13 +12,13 @@ public class LogOutStep {
 
 
 
-    @Given("el usuario hace click en el boton Log Out")
-    public void elUsuarioHaceClickEnElBotonLogOut(){
+    @Given("El usuario hace clic en el botón Log Out")
+    public void usuarioHaceClickLogOut() {
         accountServicesPage.ClickLogOut();
     }
 
-    @Then("deberia regresar a la pagina de login")
-    public void deberiaRegresarALaPaginaDeLogin(){
+    @Then("El usuario debería regresar a la página de login")
+    public void usuarioVePaginaLogin() {
         loginPage.verifyIsOnThisPage();
     }
 

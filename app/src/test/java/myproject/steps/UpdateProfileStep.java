@@ -15,14 +15,14 @@ public class UpdateProfileStep {
     UpdateProfilePage updateProfilePage=testContext.getUpdateProfilePage();
     AccountServicesPage accountServicesPage=testContext.getAccountServicesPage();
 
-    @Given("El usuario esta en el apartado de Update Contact Info")
-    public void elUsuarioEstaEnElApartadoDeUpdateContactInfo(){
+    @Given("El usuario se encuentra en el apartado Update Contact Info")
+    public void usuarioEnUpdateContactInfo() {
         accountServicesPage.ClickUpdateContactInfo();
         updateProfilePage.setSnapshot1(updateProfilePage.TakeDataSnapshot());
     }
 
-    @When("El usuario actualiza el formulario con sus nuevos datos")
-    public void elUsuarioActualizaElFormularioConSusNuevosDatos(){
+    @When("El usuario completa el formulario con sus nuevos datos")
+    public void usuarioCompletaFormulario() {
         updateProfilePage.UpdateData();
     }
 
@@ -31,13 +31,13 @@ public class UpdateProfileStep {
         updateProfilePage.SendFormulary();
     }
 
-    @Then("Deberia aparecer el mensaje Profile Updated")
-    public void deberiaAparecerElMensajeProfileUpdated(){
+    @Then("El usuario debería visualizar el mensaje Profile Updated")
+    public void usuarioVeMensajeActualizado() {
         updateProfilePage.verifyMessage();
     }
 
-    @And("Al regresar a el apartado de Update Contact Info, deberia ver sus datos actualizados")
-    public void alRegresarAElApartadoDeUpdateContactInfoDeberiaVerSusDatosActualizados(){
+    @And("Al regresar al apartado Update Contact Info, el usuario debería visualizar sus datos actualizados")
+    public void usuarioVeDatosActualizados() {
         accountServicesPage.ClickUpdateContactInfo();
         updateProfilePage.setSnapshot2(updateProfilePage.TakeDataSnapshot());
         updateProfilePage.verifySnapshots();

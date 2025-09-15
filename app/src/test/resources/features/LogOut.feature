@@ -1,6 +1,6 @@
-Feature: Log Out de la cuenta
+Feature: Cerrar sesión de la cuenta
 
-  Scenario: Log Out de la cuenta
+  Scenario: Cerrar sesión
     Given El usuario ha iniciado sesión en el sistema con credenciales válidas
-    When el usuario hace click en el boton Log Out
-    Then deberia regresar a la pagina de login
+    When El usuario hace clic en el botón Log Out
+    Then El usuario debería regresar a la página de login

@@ -6,8 +6,8 @@ Feature: Verificar una nueva cuenta en Accounts Overview
 
   Scenario: Verificar que se agrego una nueva cuenta a Accounts Overview
     Given El usuario esta en el apartado de Accounts Overview y visualiza la lista actual de cuentas
-    When El usuario navega a Open New Account y crea una nueva cuenta
-      And El usuario regresa a la pagina de Accounts Overview
-    Then deberia visualizarse una nueva cuenta en la lista, con el id visualizado al crear la cuenta
+    When El usuario navega al apartado Open New Account y crea una nueva cuenta
+      And El usuario regresa a la página de Accounts Overview
+    Then El usuario debería visualizar la nueva cuenta en la lista, con el ID mostrado al momento de crearla
 
 

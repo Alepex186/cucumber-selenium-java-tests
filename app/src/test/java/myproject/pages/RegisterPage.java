@@ -1,5 +1,6 @@
 package myproject.pages;
 
+import myproject.abs.Config;
 import myproject.abs.abs_basics_funtions;
 import myproject.objs.FakeUserData;
 import myproject.steps.TestContext;
@@ -51,7 +52,7 @@ public class RegisterPage extends abs_basics_funtions {
     WebElement Submit_button;
 
 
-    String url="http://localhost:8080/parabank/register.htm";//"https://parabank.parasoft.com/parabank/register.htm";
+    String url= Config.getProperty("register_url");
 
     WebDriver driver;
 

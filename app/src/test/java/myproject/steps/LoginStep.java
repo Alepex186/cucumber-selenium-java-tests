@@ -19,23 +19,23 @@ public class LoginStep {
 
     }
 
-    @Given("Abro la pagina de login")
-    public void ingresarAUrl() throws Exception {
+    @Given("El usuario abre la página de login")
+    public void usuarioAbrePaginaLogin() throws Exception {
         loginPage.GetUrl();
     }
 
-    @When("Ingreso el usuario correcto {string}")
-    public void ingresarUsuarioCorrecto(String usuario){
+    @When("El usuario ingresa el nombre de usuario correcto {string}")
+    public void usuarioIngresaUsuarioCorrecto(String usuario){
         loginPage.sendKeysUsername_element(usuario);
     }
 
-    @And("Ingreso la contrasenia correcta {string}")
-    public void ingresarContraseniaCorrecta(String contrasenia){
+    @And("El usuario ingresa la contraseña correcta {string}")
+    public void usuarioIngresaContraseniaCorrecta(String contrasenia){
         loginPage.sendKeysPassword_element(contrasenia);
     }
 
-    @And("Hago click en el boton de login")
-    public void enviarFormulario(){
+    @And("El usuario hace clic en el botón Login")
+    public void usuarioHaceClickLogin(){
         loginPage.clickLogin_button();
     }
 
@@ -44,18 +44,18 @@ public class LoginStep {
         loginPage.verificarExitoso(mensaje);
     }
 
-    @When("Ingreso el usuario incorrecto {string}")
-    public void ingresarUsuarioIncorrecto(String usuario){
+    @When("El usuario ingresa un nombre de usuario incorrecto {string}")
+    public void usuarioIngresaUsuarioIncorrecto(String usuario){
         loginPage.sendKeysUsername_element(usuario);
     }
 
-    @Then("Deberia aparecer el mensaje {string}")
-    public void verificarFallido(String mensaje){
+    @Then("El usuario debería visualizar el mensaje {string}")
+    public void usuarioVerificaLoginFallido(String mensaje){
         loginPage.verificarFallido(mensaje);
     }
 
-    @And("Ingreso una contrasenia incorrecta {string}")
-    public void ingresarContraseniaIncorrecta(String contrasenia){
+    @And("El usuario ingresa una contraseña incorrecta {string}")
+    public void usuarioIngresaContraseniaIncorrecta(String contrasenia){
         loginPage.sendKeysPassword_element(contrasenia);
     }
 

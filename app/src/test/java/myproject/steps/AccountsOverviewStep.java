@@ -23,7 +23,7 @@ public class AccountsOverviewStep {
     }
 
     @Given("El usuario esta en el apartado de Accounts Overview y visualiza la lista actual de cuentas")
-    public void accountOverview(){
+    public void usuarioEnAccountsOverview() {
         accountServicesPage.ClickAccountsOverview();
 
 
@@ -32,18 +32,17 @@ public class AccountsOverviewStep {
 
     }
 
-    @When("El usuario navega a Open New Account y crea una nueva cuenta")
-    public void openNewAccount() throws Exception {
+    @When("El usuario navega al apartado Open New Account y crea una nueva cuenta")
+    public void usuarioCreaNuevaCuenta() throws Exception {
         this.accountServicesPage.ClickOpenNewAccount();
         this.openNewAccountPage.SelectValueSelect(0);
         this.FromtransferredAccountId= this.openNewAccountPage.SelectValue_fromAccountId(0);
-        System.out.println(this.FromtransferredAccountId);
         this.openNewAccountPage.sendFormularyOpenNewAccount();
         this.NewAccountId=this.openNewAccountPage.verifyCreatedAccount();
     }
 
-    @And("El usuario regresa a la pagina de Accounts Overview")
-    public void accountOverviewReturn(){
+    @And("El usuario regresa a la página de Accounts Overview")
+    public void usuarioRegresaAccountsOverview() {
         this.accountServicesPage.ClickAccountsOverview();
 
         Element tbody = accountsOverviewPage.getTableData();
@@ -51,11 +50,8 @@ public class AccountsOverviewStep {
 
     }
 
-    @Then("deberia visualizarse una nueva cuenta en la lista, con el id visualizado al crear la cuenta")
-    public void verify() throws Exception {
-        System.out.println(this.FromtransferredAccountId);
-        System.out.println(this.NewAccountId);
-
+    @Then("El usuario debería visualizar la nueva cuenta en la lista, con el ID mostrado al momento de crearla")
+    public void usuarioVerificaNuevaCuenta() throws Exception {
         accountsOverviewPage.verifyTables(this.FromtransferredAccountId,this.NewAccountId);
     }
 

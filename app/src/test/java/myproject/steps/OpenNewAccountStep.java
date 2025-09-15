@@ -19,30 +19,30 @@ public class OpenNewAccountStep {
 
     }
 
-    @When("Hago click en el boton {string}")
-    public void newAccountClick(String valor){
+    @When("El usuario hace clic en el botón Open New Account")
+    public void usuarioClickOpenNewAccount() {
         this.accountServicesPage.ClickOpenNewAccount();
         //this.accountManagementPage.OpenNewAccountClick();
     }
 
-    @And("Selecciono el valor {string} del menu de tipo de cuenta")
-    public void seleccionarValor(String index) throws InterruptedException {
-        this.openNewAccountPage.SelectValueSelect(Integer.parseInt(index));
+    @And("El usuario selecciona un tipo de cuenta")
+    public void usuarioSeleccionaTipoCuenta() throws InterruptedException {
+        this.openNewAccountPage.SelectValueSelect(Integer.parseInt("1"));
     }
 
-    @And("Selecciono el valor {string} del menu del ID de la cuenta")
-    public void seleccionarAccountId(String index){
-        this.openNewAccountPage.SelectValue_fromAccountId(Integer.parseInt(index));
+    @And("El usuario selecciona la cuenta para descontar el deposito")
+    public void usuarioSeleccionaCuentaOrigen() {
+        this.openNewAccountPage.SelectValue_fromAccountId(Integer.parseInt("0"));
     }
 
-    @And("Hago click en el boton para enviar el formulario de {string}")
-    public void enviarFormulario(String string) throws InterruptedException {
+    @And("El usuario hace clic en el botón para enviar el formulario de Open New Account")
+    public void usuarioEnviaFormularioOpenNewAccount() throws InterruptedException {
         this.openNewAccountPage.sendFormularyOpenNewAccount();
     }
 
 
-    @Then("deberia aparecer el mensaje {string}")
-     public void verificar(String string) throws Exception {
+    @Then("El usuario debería visualizar el mensaje Congratulations, your account is now open")
+    public void usuarioVeMensajeCuentaCreada() throws Exception {
         this.openNewAccountPage.verifyCreatedAccount();
     }
 }

@@ -3,47 +3,9 @@
  */
 package myproject;
 
-//import myproject.objs.RegisterData;
-//import myproject.pages.LoginPage;
-//import myproject.pages.RegisterPage;
-//import org.openqa.selenium.Proxy;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.chrome.ChromeDriver;
 
 public class App {
 
-    public static void main(String[] args) throws Exception {
-
-//        Proxy proxy= new Proxy();
-//        proxy.setSocksProxy("127.0.0.1:20000");
-//        proxy.setSocksVersion(5);
-//
-////        FirefoxOptions options=new FirefoxOptions();
-////        options.setProxy(proxy);
-////        WebDriver driver=new FirefoxDriver(options);
-//
-//
-////        ChromeOptions options=new ChromeOptions();
-////        options.addArguments("--proxy-server=socks5://127.0.0.1:20000");
-//
-//        WebDriver driver=new ChromeDriver();
-//
-//
-//        LoginPage loginPage=new LoginPage(driver);
-//        RegisterPage registerPage=new RegisterPage(driver);
-//
-//        RegisterData data_generada_registro=registerPage.getRegisterData();
-//
-//        registerPage.Register();
-//
-//        try {
-//            loginPage.Login(data_generada_registro);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
-
+    public static void main(String[] args)  {
     }
-
-
 }

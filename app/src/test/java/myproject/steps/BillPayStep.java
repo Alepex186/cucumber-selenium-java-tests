@@ -19,26 +19,28 @@ public class BillPayStep {
     }
 
 
-    @And("El usuario esta en el apartado de Bill Pay")
-    public void elUsuarioEstaEnElApartadoDeBillPay(){
+    @And("El usuario se encuentra en el apartado Bill Pay")
+    public void usuarioEnBillPay() {
         accountServicesPage.ClickBillPay();
     }
 
-    @When("El usuario rellena el formulario e ingresa la cantidad de {string} dolares")
-    public void elUsuarioRellenaElFormulario(String money){
+    @When("El usuario completa el formulario e ingresa la cantidad de {string} dólares")
+    public void usuarioRellenaFormulario(String money) {
         billPayPage.fillOutForm(money);
     }
-    @And("Hace click en el boton SEND PAYMENT")
-    public void haceClickEnElBotonSENDPAYMENT(){
+
+    @And("El usuario hace clic en el botón SEND PAYMENT")
+    public void usuarioClickSendPayment() {
         billPayPage.sendFormulary();
     }
-    @Then("Deberia aparecer el mensaje Bill Payment Complete")
-    public void deberiaAparecerElMensajeBillPaymentComplete(){
+
+    @Then("El usuario debería visualizar el mensaje Bill Payment Complete")
+    public void usuarioVisualizaPaymentCompleteMessage(){
         billPayPage.verify();
     }
 
-    @And("El saldo deberia disminuir en {string} dolares")
-    public void elSaldoDeberiaDisminuirEnStringDolares(String money) throws Exception {
+    @And("El usuario debería visualizar que el saldo disminuyó en {string} dólares")
+    public void usuarioVerificaSaldoDisminuido(String money) throws Exception {
         accountsOverviewPage.verifyTableSameAccount(billPayPage.getFromAccountNumberString(),Integer.parseInt(money));
     }
 
