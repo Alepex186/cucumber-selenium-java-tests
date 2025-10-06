@@ -6,4 +6,5 @@
 
 # These are Windows script files and should use crlf
 *.bat           text eol=crlf
-
+apache-tomcat-10.1.44/** linguist-detectable=false
+app/target/** linguist-detectable=false

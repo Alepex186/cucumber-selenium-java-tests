@@ -52,7 +52,7 @@ public class RegisterPage extends abs_basics_funtions {
     WebElement Submit_button;
 
 
-    String url= Config.getProperty("register_url");
+    String url= Config.getProperty("REGISTER_URL");
 
     WebDriver driver;
 

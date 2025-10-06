@@ -20,8 +20,8 @@ public class Hooks {
 
     @Before
     public void setUpDriver(){
-        String browser=Config.getProperty("browser").toLowerCase();
-        Boolean headless=Boolean.parseBoolean(Config.getProperty("headless"));
+        String browser=Config.getProperty("BROWSER").toLowerCase();
+        Boolean headless=Boolean.parseBoolean(Config.getProperty("HEADLESS"));
 
 
         WebDriver driver=null;

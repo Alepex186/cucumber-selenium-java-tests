@@ -36,7 +36,7 @@ public class LoginPage extends abs_basics_funtions {
     @FindBy(xpath = "//p[@class='error']")
     WebElement referencia_verificar_fallido;
 
-    String url= Config.getProperty("login_url");
+    String url= Config.getProperty("LOGIN_URL");
 
     WebDriver driver;
 
