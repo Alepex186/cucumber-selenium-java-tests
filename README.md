@@ -3,27 +3,31 @@
 
 # 🚀 ¿ Cómo ejecutar las pruebas ?
 
-1. Iniciar el servidor de Parabank:
+
+1. Dar permisos a los ejecutables (solo Linux/Mac):
+   
+   - `sudo chmod +x run_parabank_webserver.sh gradlew shutdown_parabank_webserver.sh`
+
+3. Iniciar el servidor de Parabank:
    - Windows: `run_parabank_webserver.bat`
-   - Linux/Mac: `run_parabank_webserver.sh`
+   - Linux/Mac: `./run_parabank_webserver.sh`
    > ⏳ Espera ~30 segundos a que el servidor inicie.
 
-2. Ejecutar los tests:
-   - Linux/Mac: `./gradlew test`
+4. Ejecutar los tests:
    - Windows: `gradlew.bat test`
-
-
+   - Linux/Mac: `./gradlew test`
 
 
 # ⚙️ Configuración
 El archivo [`app/src/test/resources/config.properties`] permite ajustar el navegador, el modo headless asi como otras configuraciones:
 
 ## Propiedades por defecto
-browser=chrome
-headless=false
+- BROWSER=chrome
+- HEADLESS=false
 
-
-
+También es posible definir estas propiedades mediante variables de entorno, lo cual es útil en entornos como Jenkins o CI/CD.      
+   - Windows(cmd): `set HEADLESS=true`
+   - Linux/Mac: `export HEADLESS=true`
 
 # ⚠️ Error conocido: Timeout en el registro
 
@@ -42,7 +46,7 @@ Este error no se debe a las pruebas, sino a un bug interno de la aplicación Par
  
 **Apagar el servidor web ejecutando:**
 
-    Windows: shutdown.bat
+    Windows: shutdown_parabank_webserver.bat
 
     Linux/Mac: shutdown_parabank_webserver.sh
 
