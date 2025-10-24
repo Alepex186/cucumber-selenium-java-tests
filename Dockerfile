@@ -17,7 +17,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends wget \
     \
     # Limpieza
     && rm -rf /usr/local/temp \
-    && apt-get remove -y wget \
     && apt-get autoremove -y \
     && apt-get clean \
     && apt-get autoclean \
