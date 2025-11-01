@@ -50,29 +50,19 @@ pipeline {
             }
         }
 
-        stage('Publicar reporte HTML') {
-            steps {
-                publishHTML([
-                    reportDir: 'app/target/cucumber-report',
-                    reportFiles: 'cucumber.html',
-                    reportName: 'Reporte Cucumber',
-                    keepAll: true,
-                    alwaysLinkToLastBuild: true,
-                    allowMissing: false
-                ])
-            }
-        }
     }
 
     post {
-        always {
+        always{
+            publishHTML([
+                reportDir: 'app/target/cucumber-report',
+                reportFiles: 'cucumber.html',
+                reportName: 'Reporte Cucumber',
+                keepAll: true,
+                alwaysLinkToLastBuild: true,
+                allowMissing: false
+                ])
             echo 'Pipeline terminado. Revisar resultados.'
-        }
-        success {
-            echo 'Pipeline finalizó con éxito.'
-        }
-        failure {
-            echo 'Pipeline falló. Revisar errores.'
         }
     }
 }
